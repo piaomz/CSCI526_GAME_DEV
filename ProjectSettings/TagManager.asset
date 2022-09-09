@@ -4,10 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - doorControl
   - Coin1
   - CoinA
   - CoinB
+  - DoorA
+  - PlayerA
+  - PlayerB
   layers:
   - Default
   - TransparentFX
