@@ -337,6 +337,9 @@
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Camera.cs"
 "Assets/Scripts/Coin.cs"
+"Assets/Scripts/Door.cs"
+"Assets/Scripts/OpenDoorA.cs"
+"Assets/Scripts/OpenDoorB.cs"
 "Assets/Scripts/PlayerA.cs"
 "Assets/Scripts/PlayerB.cs"
 -langversion:9.0
