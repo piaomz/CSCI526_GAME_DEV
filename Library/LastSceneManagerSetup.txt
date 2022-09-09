@@ -1,5 +1,5 @@
 sceneSetups:
-- path: E:/Program Files/Unity/PROJECTS/unity_mesh_rope-master/Assets/Scenes/Mesh.unity
+- path: Assets/Scenes/main scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
