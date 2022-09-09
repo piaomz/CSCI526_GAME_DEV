@@ -110,6 +110,7 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -120,6 +121,7 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"D:/github/CSCI526_GAME_DEV/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"E:/Program Files/Unity/editor/2021.3.9f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"E:/Program Files/Unity/editor/2021.3.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"E:/Program Files/Unity/editor/2021.3.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -326,7 +328,6 @@
 -r:"E:/Program Files/Unity/editor/2021.3.9f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"E:/Program Files/Unity/editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"E:/Program Files/Unity/editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
--r:"E:/Program Files/Unity/PROJECTS/test/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 "Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/AssemblyInfo.cs"
 "Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/Assertions/AllocatingGCMemoryConstraint.cs"
 "Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/Assertions/ConstraintsExtensions.cs"

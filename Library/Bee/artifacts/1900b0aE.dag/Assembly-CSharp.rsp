@@ -110,6 +110,7 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -120,6 +121,9 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"D:/github/CSCI526_GAME_DEV/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
+-r:"D:/github/CSCI526_GAME_DEV/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"D:/github/CSCI526_GAME_DEV/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"E:/Program Files/Unity/editor/2021.3.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"E:/Program Files/Unity/editor/2021.3.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"E:/Program Files/Unity/editor/2021.3.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -323,12 +327,11 @@
 -r:"E:/Program Files/Unity/editor/2021.3.9f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"E:/Program Files/Unity/editor/2021.3.9f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"E:/Program Files/Unity/editor/2021.3.9f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
--r:"E:/Program Files/Unity/PROJECTS/test/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
--r:"E:/Program Files/Unity/PROJECTS/test/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
--r:"E:/Program Files/Unity/PROJECTS/test/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InternalAPIEditorBridgeDev.001.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Play.Publisher.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Analytics.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.ref.dll"
@@ -352,10 +355,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Scripts/FollowTarget.cs"
-"Assets/Scripts/food.cs"
-"Assets/Scripts/Player.cs"
-"Assets/Scripts/Player2.cs"
+"Assets/Scripts/Camera.cs"
+"Assets/Scripts/Coin.cs"
+"Assets/Scripts/PlayerA.cs"
+"Assets/Scripts/PlayerB.cs"
 -langversion:9.0
 
 /deterministic

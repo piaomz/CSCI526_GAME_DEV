@@ -4,9 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - food
-  - test
   - doorControl
+  - Coin1
+  - CoinA
+  - CoinB
   layers:
   - Default
   - TransparentFX
