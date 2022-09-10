@@ -56,13 +56,14 @@
     <Analyzer Include="E:\Program Files\VisualStudio\IDE\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\OpenDoorA.cs" />
     <Compile Include="Assets\Scripts\Coin.cs" />
+    <Compile Include="Assets\Scripts\OpenDoorB.cs" />
     <Compile Include="Assets\Scripts\PlayerA.cs" />
     <Compile Include="Assets\Scripts\Camera.cs" />
     <Compile Include="Assets\Scripts\PlayerB.cs" />
-    <Compile Include="Assets\Scripts\OpenDoorA.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
-    <Compile Include="Assets\Scripts\OpenDoorB.cs" />
+    <Compile Include="Assets\Scripts\ReturnButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

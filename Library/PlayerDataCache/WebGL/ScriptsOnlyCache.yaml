@@ -11,6 +11,7 @@ ScriptsOnlyBuild:
     - ReturnButton
     Unity.Play.Publisher.Editor.dll:
     - Unity.Play.Publisher.Editor.AnalyticsHelper
+    - Unity.Play.Publisher.Editor.PublisherWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -19,16 +20,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    Unity.Timeline.Editor.dll:
-    - TimelinePreferences
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -40,6 +31,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Outline
     - UnityEngine.UI.Text
   serializedClasses:
     Unity.TextMeshPro:
@@ -114,45 +106,47 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1664}
+      Script: {instanceID: 1594}
     - Class: 114
-      Script: {instanceID: 1978}
+      Script: {instanceID: 1908}
     - Class: 114
-      Script: {instanceID: 2288}
+      Script: {instanceID: 2218}
     - Class: 114
-      Script: {instanceID: 2722}
+      Script: {instanceID: 2652}
     - Class: 114
-      Script: {instanceID: 2948}
+      Script: {instanceID: 2878}
     - Class: 114
-      Script: {instanceID: 3250}
+      Script: {instanceID: 3180}
     - Class: 114
-      Script: {instanceID: 3386}
+      Script: {instanceID: 3316}
     - Class: 114
-      Script: {instanceID: 4322}
+      Script: {instanceID: 4252}
     - Class: 114
-      Script: {instanceID: 4466}
+      Script: {instanceID: 4396}
     - Class: 114
-      Script: {instanceID: 4602}
+      Script: {instanceID: 4532}
     - Class: 114
-      Script: {instanceID: 5370}
+      Script: {instanceID: 5300}
     - Class: 114
-      Script: {instanceID: 5498}
+      Script: {instanceID: 5428}
     - Class: 114
-      Script: {instanceID: 5652}
+      Script: {instanceID: 5582}
     - Class: 114
-      Script: {instanceID: 5990}
+      Script: {instanceID: 5920}
     - Class: 114
-      Script: {instanceID: 6144}
+      Script: {instanceID: 6074}
     - Class: 114
-      Script: {instanceID: 6494}
+      Script: {instanceID: 6424}
     - Class: 114
-      Script: {instanceID: 6982}
+      Script: {instanceID: 6784}
     - Class: 114
-      Script: {instanceID: 7356}
+      Script: {instanceID: 6912}
     - Class: 114
-      Script: {instanceID: 7634}
+      Script: {instanceID: 7286}
     - Class: 114
-      Script: {instanceID: 53086}
+      Script: {instanceID: 7564}
+    - Class: 114
+      Script: {instanceID: 7944}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -678,7 +672,7 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: 4f84b3396afe1767a93060295a7d4a9b
+      Hash: baefe6346491a78bbd558f2f07307190
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerA
@@ -888,7 +882,7 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
-      Hash: 4f84b3396afe1767a93060295a7d4a9b
+      Hash: baefe6346491a78bbd558f2f07307190
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerB
@@ -918,7 +912,7 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: 8a3b9c769e4118beea4aa7e984ab9859
+      Hash: f2bc1e5ad8df4afbad1d8ad541c5614d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Door
@@ -952,6 +946,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 48c8622860951339a94b6f031185eb46
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ReturnButton
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
@@ -988,13 +988,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 72939f5ddd8afdfe5d2b657a14bd1631
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ReturnButton
   platform: 20
   scenePathNames:
   - Assets/Scenes/main scene.unity
-  playerPath: /Users/piaomz/Desktop/CSCI526_GAME_DEV/Build
+  playerPath: D:/github/CSCI526_GAME_DEV/WebGL Builds
