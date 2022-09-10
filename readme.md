@@ -1,1 +1,1 @@
-this is the project of csci576
+this is the project of csci526 in usc
