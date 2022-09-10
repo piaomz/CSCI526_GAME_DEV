@@ -6,8 +6,9 @@ using UnityEngine.UI;
 public class PlayerB : MonoBehaviour
 {
     private Rigidbody rd;
-    private int score = 0;
+    public int score = 0;
     public Text scoreText;
+    public GameObject gameOverText;
     //private GameObject winText;
     //private Rigidbody door;
     // Start is called before the first frame update
@@ -36,6 +37,11 @@ public class PlayerB : MonoBehaviour
             //{
             //    winText.SetActive(true);
             //}
+        }
+        else if(other.tag == "Enemy"){
+            score=0;
+            gameOverText.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 }
