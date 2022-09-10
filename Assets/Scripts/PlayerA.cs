@@ -6,8 +6,9 @@ using UnityEngine.UI;
 public class PlayerA : MonoBehaviour
 {
     private Rigidbody rd;
-    private int score = 0;
+    public int score = 0;
     public Text scoreText;
+    public GameObject gameOverText;
     //private GameObject winText;
     //private Rigidbody door;
     // Start is called before the first frame update
@@ -15,6 +16,7 @@ public class PlayerA : MonoBehaviour
     {
         //Debug.log("game start");
         rd = GetComponent<Rigidbody>();
+
     }
     // Update is called once per frame
     void Update()
@@ -37,6 +39,13 @@ public class PlayerA : MonoBehaviour
             //    winText.SetActive(true);
             //}
         }
+        else if(other.tag == "Enemy"){
+            score=0;
+            gameOverText.SetActive(true);
+            gameObject.transform.localEulerAngles = new Vector3 (0, 0, 0);
+            gameObject.GetComponent<Rigidbody>().angularVelocity=new Vector3(0,0,0);
+            gameObject.GetComponent<Rigidbody>().velocity=new Vector3(0,0,0);
+            Time.timeScale = 0;
+        }
     }
-
 }

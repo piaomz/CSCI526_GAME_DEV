@@ -6,6 +6,7 @@ public class Door : MonoBehaviour
 {
     public int flagA = 0;
     public int flagB = 0;
+    public int isOpen=0;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +20,8 @@ public class Door : MonoBehaviour
     }
     public void Lift()
     {
-        if (flagA ==1 && flagB==1) {
+        if (flagA ==1 && flagB==1 && isOpen==0) {
+            isOpen=1;
             transform.position = new Vector3(transform.position.x,
                 transform.position.y + 1, transform.position.z);
         }

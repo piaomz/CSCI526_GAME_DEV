@@ -6,6 +6,8 @@ Unity.Jobs.JobHandle::ScheduleBatchedJobs
 Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::CreateMarker
 Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::BeginSample
 Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::EndSample
+UnityEngine.Animation::GetStateCount
+UnityEngine.Animation::GetStateAtIndex
 UnityEngine.AnimationCurve::Internal_Equals
 UnityEngine.AnimationCurve::Internal_Create
 UnityEngine.AnimationCurve::Internal_Destroy
@@ -92,6 +94,7 @@ UnityEngine.CanvasRenderer::set_materialCount
 UnityEngine.CanvasRenderer::set_popMaterialCount
 UnityEngine.CanvasRenderer::GetMaterial
 UnityEngine.Component::GetComponentsForListInternal
+UnityEngine.Component::SendMessage
 UnityEngine.Component::get_gameObject
 UnityEngine.Component::get_transform
 UnityEngine.ComputeShader::FindKernel
@@ -460,6 +463,8 @@ UnityEngine.Resources::GetBuiltinResource
 UnityEngine.ResourcesAPIInternal::Load
 UnityEngine.ResourcesAPIInternal::FindShaderByName
 UnityEngine.Rigidbody::AddForce_Injected
+UnityEngine.Rigidbody::set_angularVelocity_Injected
+UnityEngine.Rigidbody::set_velocity_Injected
 UnityEngine.Screen::get_fullScreen
 UnityEngine.Screen::get_height
 UnityEngine.Screen::get_width
@@ -548,6 +553,7 @@ UnityEngine.Time::get_deltaTime
 UnityEngine.Time::get_realtimeSinceStartup
 UnityEngine.Time::get_unscaledDeltaTime
 UnityEngine.Time::get_unscaledTime
+UnityEngine.Time::set_timeScale
 UnityEngine.TouchScreenKeyboard::get_active
 UnityEngine.TouchScreenKeyboard::get_canGetSelection
 UnityEngine.TouchScreenKeyboard::get_canSetSelection

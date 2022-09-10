@@ -30,7 +30,7 @@ public class OpenDoorB : MonoBehaviour
     {
         if (other.tag == "PlayerB")
         {
-            door.flagA = 0;
+            door.flagB = 0;
         }
     }
 }
