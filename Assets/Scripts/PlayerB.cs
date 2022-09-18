@@ -28,9 +28,9 @@ public class PlayerB : MonoBehaviour
         {
             score = 0;
             gameOverText.SetActive(true);
-            gameObject.transform.localEulerAngles = new Vector3(0, 0, 0);
-            gameObject.GetComponent<Rigidbody>().angularVelocity = new Vector3(0, 0, 0);
-            gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
+            //gameObject.transform.localEulerAngles = new Vector3(0, 0, 0);
+            //gameObject.GetComponent<Rigidbody>().angularVelocity = new Vector3(0, 0, 0);
+            //gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
             Time.timeScale = 0;
         }
     }
@@ -57,9 +57,9 @@ public class PlayerB : MonoBehaviour
         {
             score = 0;
             gameOverText.SetActive(true);
-            gameObject.transform.localEulerAngles = new Vector3(0, 0, 0);
-            gameObject.GetComponent<Rigidbody>().angularVelocity = new Vector3(0, 0, 0);
-            gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
+            //gameObject.transform.localEulerAngles = new Vector3(0, 0, 0);
+            //gameObject.GetComponent<Rigidbody>().angularVelocity = new Vector3(0, 0, 0);
+            //gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
             Time.timeScale = 0;
         }
     }

@@ -11,7 +11,6 @@ ScriptsOnlyBuild:
     - ReturnButton
     Unity.Play.Publisher.Editor.dll:
     - Unity.Play.Publisher.Editor.AnalyticsHelper
-    - Unity.Play.Publisher.Editor.PublisherWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -106,47 +105,47 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1594}
+      Script: {instanceID: 1672}
     - Class: 114
-      Script: {instanceID: 1908}
+      Script: {instanceID: 1986}
     - Class: 114
-      Script: {instanceID: 2218}
+      Script: {instanceID: 2296}
     - Class: 114
-      Script: {instanceID: 2652}
+      Script: {instanceID: 2730}
     - Class: 114
-      Script: {instanceID: 2878}
+      Script: {instanceID: 2956}
     - Class: 114
-      Script: {instanceID: 3180}
+      Script: {instanceID: 3258}
     - Class: 114
-      Script: {instanceID: 3316}
+      Script: {instanceID: 3394}
     - Class: 114
-      Script: {instanceID: 4252}
+      Script: {instanceID: 4330}
     - Class: 114
-      Script: {instanceID: 4396}
+      Script: {instanceID: 4474}
     - Class: 114
-      Script: {instanceID: 4532}
+      Script: {instanceID: 4610}
     - Class: 114
-      Script: {instanceID: 5300}
+      Script: {instanceID: 5378}
     - Class: 114
-      Script: {instanceID: 5428}
+      Script: {instanceID: 5506}
     - Class: 114
-      Script: {instanceID: 5582}
+      Script: {instanceID: 5660}
     - Class: 114
-      Script: {instanceID: 5920}
+      Script: {instanceID: 5998}
     - Class: 114
-      Script: {instanceID: 6074}
+      Script: {instanceID: 6152}
     - Class: 114
-      Script: {instanceID: 6424}
+      Script: {instanceID: 6502}
     - Class: 114
-      Script: {instanceID: 6784}
+      Script: {instanceID: 6862}
     - Class: 114
-      Script: {instanceID: 6912}
+      Script: {instanceID: 6990}
     - Class: 114
-      Script: {instanceID: 7286}
+      Script: {instanceID: 7364}
     - Class: 114
-      Script: {instanceID: 7564}
+      Script: {instanceID: 7642}
     - Class: 114
-      Script: {instanceID: 7944}
+      Script: {instanceID: 8022}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -991,4 +990,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/main scene.unity
-  playerPath: D:/github/CSCI526_GAME_DEV/WebGL Builds
+  playerPath: /Users/piaomz/Desktop/CSCI526_GAME_DEV/Build
