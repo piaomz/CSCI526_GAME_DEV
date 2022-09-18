@@ -106,47 +106,47 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1596}
+      Script: {instanceID: 1594}
     - Class: 114
-      Script: {instanceID: 1910}
+      Script: {instanceID: 1908}
     - Class: 114
-      Script: {instanceID: 2220}
+      Script: {instanceID: 2218}
     - Class: 114
-      Script: {instanceID: 2654}
+      Script: {instanceID: 2652}
     - Class: 114
-      Script: {instanceID: 2880}
+      Script: {instanceID: 2878}
     - Class: 114
-      Script: {instanceID: 3182}
+      Script: {instanceID: 3180}
     - Class: 114
-      Script: {instanceID: 3318}
+      Script: {instanceID: 3316}
     - Class: 114
-      Script: {instanceID: 4254}
+      Script: {instanceID: 4252}
     - Class: 114
-      Script: {instanceID: 4398}
+      Script: {instanceID: 4396}
     - Class: 114
-      Script: {instanceID: 4534}
+      Script: {instanceID: 4532}
     - Class: 114
-      Script: {instanceID: 5302}
+      Script: {instanceID: 5300}
     - Class: 114
-      Script: {instanceID: 5430}
+      Script: {instanceID: 5428}
     - Class: 114
-      Script: {instanceID: 5584}
+      Script: {instanceID: 5582}
     - Class: 114
-      Script: {instanceID: 5922}
+      Script: {instanceID: 5920}
     - Class: 114
-      Script: {instanceID: 6076}
+      Script: {instanceID: 6074}
     - Class: 114
-      Script: {instanceID: 6426}
+      Script: {instanceID: 6424}
     - Class: 114
-      Script: {instanceID: 6786}
+      Script: {instanceID: 6784}
     - Class: 114
-      Script: {instanceID: 6914}
+      Script: {instanceID: 6912}
     - Class: 114
-      Script: {instanceID: 7288}
+      Script: {instanceID: 7286}
     - Class: 114
-      Script: {instanceID: 7566}
+      Script: {instanceID: 7564}
     - Class: 114
-      Script: {instanceID: 7946}
+      Script: {instanceID: 7944}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -672,7 +672,7 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: baefe6346491a78bbd558f2f07307190
+      Hash: 879e88ed4f534da13c5daee467ba999a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerA
@@ -882,7 +882,7 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
-      Hash: baefe6346491a78bbd558f2f07307190
+      Hash: 879e88ed4f534da13c5daee467ba999a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerB

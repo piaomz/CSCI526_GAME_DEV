@@ -45618,6 +45618,8 @@ struct PlayerA_t6FD10F429B7E57BCE920609EA871974FADAE3B53  : public MonoBehaviour
 	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___scoreText_6;
 	// UnityEngine.GameObject PlayerA::gameOverText
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___gameOverText_7;
+	// System.Int32 PlayerA::deadLiney
+	int32_t ___deadLiney_8;
 };
 
 // PlayerB
@@ -45631,6 +45633,8 @@ struct PlayerB_t74738E5CDB453F1F74036205F24C320A3317284C  : public MonoBehaviour
 	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___scoreText_6;
 	// UnityEngine.GameObject PlayerB::gameOverText
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___gameOverText_7;
+	// System.Int32 PlayerB::deadLiney
+	int32_t ___deadLiney_8;
 };
 
 // UnityEngine.UIElements.PopupWindow
