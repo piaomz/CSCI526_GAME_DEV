@@ -11,6 +11,8 @@ TagManager:
   - PlayerA
   - PlayerB
   - Enemy
+  - RoadA
+  - RoadB
   layers:
   - Default
   - TransparentFX
