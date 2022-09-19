@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637990712210000000
+      ticks: 637991706490000000
     m_Hash: 3383013849
   m_LockFileStatus:
     m_FilePath: /Users/piaomz/Desktop/CSCI526_GAME_DEV/CSCI526_GAME_DEV/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637990712210000000
+      ticks: 637991706490000000
     m_Hash: 2380754790
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
