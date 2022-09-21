@@ -464,8 +464,6 @@ UnityEngine.Resources::GetBuiltinResource
 UnityEngine.ResourcesAPIInternal::Load
 UnityEngine.ResourcesAPIInternal::FindShaderByName
 UnityEngine.Rigidbody::AddForce_Injected
-UnityEngine.Rigidbody::set_angularVelocity_Injected
-UnityEngine.Rigidbody::set_velocity_Injected
 UnityEngine.SceneManagement.Scene::GetBuildIndexInternal
 UnityEngine.SceneManagement.SceneManager::get_sceneCount
 UnityEngine.SceneManagement.SceneManager::GetActiveScene_Injected

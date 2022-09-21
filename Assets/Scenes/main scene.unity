@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1382,7 +1382,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 83.2
+  field of view: 14
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1408,7 +1408,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 297769622}
   m_LocalRotation: {x: 0.33380687, y: -0, z: -0, w: 0.94264156}
-  m_LocalPosition: {x: 0, y: 8, z: -7}
+  m_LocalPosition: {x: 0, y: 33, z: -35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1629,7 +1629,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7875032979267813833, guid: e6d02fe6caa0d664e9734fa5762c1870, type: 3}
       propertyPath: m_Name
-      value: CoinB (3)
+      value: CoinB3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6d02fe6caa0d664e9734fa5762c1870, type: 3}
@@ -2687,6 +2687,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 933137094}
+  - component: {fileID: 933137095}
   m_Layer: 0
   m_Name: Players
   m_TagString: Untagged
@@ -2712,6 +2713,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &933137095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933137093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3694f4db6f158ed44b03d31302dc2ee3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  URL: https://docs.google.com/forms/u/0/d/e/1FAIpQLSf70qSlV1n82i3eoT7AXdJZbl1n_Nq2RLNF_Ws07vW6U0egXg/formResponse
+  PlayerA: {fileID: 1406488951}
+  PlayerB: {fileID: 942636887}
 --- !u!1 &942636880
 GameObject:
   m_ObjectHideFlags: 0
@@ -2843,6 +2859,7 @@ MonoBehaviour:
   scoreText: {fileID: 2017746042}
   gameOverText: {fileID: 508414262}
   deadLiney: -3
+  sending: {fileID: 933137095}
 --- !u!1 &983812312
 GameObject:
   m_ObjectHideFlags: 0
@@ -4112,6 +4129,7 @@ MonoBehaviour:
   scoreText: {fileID: 1219985512}
   gameOverText: {fileID: 508414262}
   deadLiney: -3
+  sending: {fileID: 933137095}
 --- !u!1 &1444534837
 GameObject:
   m_ObjectHideFlags: 0
