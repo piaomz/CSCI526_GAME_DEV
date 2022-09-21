@@ -11,6 +11,7 @@ ScriptsOnlyBuild:
     - ReturnButton
     Unity.Play.Publisher.Editor.dll:
     - Unity.Play.Publisher.Editor.AnalyticsHelper
+    - Unity.Play.Publisher.Editor.PublisherWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -19,6 +20,8 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    Unity.Timeline.Editor.dll:
+    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -105,47 +108,47 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1672}
+      Script: {instanceID: 1594}
     - Class: 114
-      Script: {instanceID: 1986}
+      Script: {instanceID: 1908}
     - Class: 114
-      Script: {instanceID: 2296}
+      Script: {instanceID: 2218}
     - Class: 114
-      Script: {instanceID: 2730}
+      Script: {instanceID: 2652}
     - Class: 114
-      Script: {instanceID: 2956}
+      Script: {instanceID: 2878}
     - Class: 114
-      Script: {instanceID: 3258}
+      Script: {instanceID: 3180}
     - Class: 114
-      Script: {instanceID: 3394}
+      Script: {instanceID: 3316}
     - Class: 114
-      Script: {instanceID: 4330}
+      Script: {instanceID: 4252}
     - Class: 114
-      Script: {instanceID: 4474}
+      Script: {instanceID: 4396}
     - Class: 114
-      Script: {instanceID: 4610}
+      Script: {instanceID: 4532}
     - Class: 114
-      Script: {instanceID: 5378}
+      Script: {instanceID: 5300}
     - Class: 114
-      Script: {instanceID: 5506}
+      Script: {instanceID: 5428}
     - Class: 114
-      Script: {instanceID: 5660}
+      Script: {instanceID: 5582}
     - Class: 114
-      Script: {instanceID: 5998}
+      Script: {instanceID: 5920}
     - Class: 114
-      Script: {instanceID: 6152}
+      Script: {instanceID: 6074}
     - Class: 114
-      Script: {instanceID: 6502}
+      Script: {instanceID: 6424}
     - Class: 114
-      Script: {instanceID: 6862}
+      Script: {instanceID: 6784}
     - Class: 114
-      Script: {instanceID: 6990}
+      Script: {instanceID: 6912}
     - Class: 114
-      Script: {instanceID: 7364}
+      Script: {instanceID: 7286}
     - Class: 114
-      Script: {instanceID: 7642}
+      Script: {instanceID: 7564}
     - Class: 114
-      Script: {instanceID: 8022}
+      Script: {instanceID: 7944}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -251,7 +254,7 @@ ScriptsOnlyBuild:
     className: UnityOnPointerUpMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 91d258529db2b5060a913f2afcea1a21
+      Hash: 4de78781075c75589cdbaad292fb6cff
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner
     className: PlaymodeTestsController
@@ -987,7 +990,13 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Services.Analytics.dll
+    namespaceName: Unity.Services.Analytics
+    className: AnalyticsLifetime
   platform: 20
   scenePathNames:
   - Assets/Scenes/main scene.unity
-  playerPath: /Users/piaomz/Desktop/CSCI526_GAME_DEV/Build
+  playerPath: C:/Users/14048/Desktop/CSCI526_GAME_DEV/WebGL Builds

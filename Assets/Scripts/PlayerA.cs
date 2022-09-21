@@ -10,6 +10,7 @@ public class PlayerA : MonoBehaviour
     public Text scoreText;
     public GameObject gameOverText;
     public int deadLiney = -3;
+    public SendToGoogle sending;
     //private GameObject winText;
     //private Rigidbody door;
     // Start is called before the first frame update
@@ -26,8 +27,10 @@ public class PlayerA : MonoBehaviour
         rd.AddForce(new Vector3(600*h * Time.fixedDeltaTime, 0, 600*v * Time.fixedDeltaTime));
         if (transform.position.y < deadLiney)
         {
+            sending.Send();
             score = 0;
             gameOverText.SetActive(true);
+            
             //gameObject.transform.localEulerAngles = new Vector3(0, 0, 0);
             //gameObject.GetComponent<Rigidbody>().angularVelocity = new Vector3(0, 0, 0);
             //gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
