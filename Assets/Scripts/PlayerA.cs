@@ -27,14 +27,14 @@ public class PlayerA : MonoBehaviour
         rd.AddForce(new Vector3(600*h * Time.fixedDeltaTime, 0, 600*v * Time.fixedDeltaTime));
         if (transform.position.y < deadLiney)
         {
-            sending.Send();
-            score = 0;
-            gameOverText.SetActive(true);
+            ExecuteDeath("Fall");
+            // score = 0;
+            // gameOverText.SetActive(true);
             
-            //gameObject.transform.localEulerAngles = new Vector3(0, 0, 0);
-            //gameObject.GetComponent<Rigidbody>().angularVelocity = new Vector3(0, 0, 0);
-            //gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
-            Time.timeScale = 0;
+            // //gameObject.transform.localEulerAngles = new Vector3(0, 0, 0);
+            // //gameObject.GetComponent<Rigidbody>().angularVelocity = new Vector3(0, 0, 0);
+            // //gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
+            // Time.timeScale = 0;
         }
     }
     
@@ -52,22 +52,31 @@ public class PlayerA : MonoBehaviour
             //}
         }
         else if(other.tag == "Enemy")
-            {
-            score=0;
-            gameOverText.SetActive(true);
-            //gameObject.transform.localEulerAngles = new Vector3 (0, 0, 0);
-            //gameObject.GetComponent<Rigidbody>().angularVelocity=new Vector3(0,0,0);
-            //gameObject.GetComponent<Rigidbody>().velocity=new Vector3(0,0,0);
-            Time.timeScale = 0;
+        {
+            ExecuteDeath("Touch Enemy");
+            // score=0;
+            // gameOverText.SetActive(true);
+            // //gameObject.transform.localEulerAngles = new Vector3 (0, 0, 0);
+            // //gameObject.GetComponent<Rigidbody>().angularVelocity=new Vector3(0,0,0);
+            // //gameObject.GetComponent<Rigidbody>().velocity=new Vector3(0,0,0);
+            // Time.timeScale = 0;
         }
         else if (other.tag == "RoadB")
         {
-            score = 0;
-            gameOverText.SetActive(true);
-            //gameObject.transform.localEulerAngles = new Vector3(0, 0, 0);
-            //gameObject.GetComponent<Rigidbody>().angularVelocity = new Vector3(0, 0, 0);
-            //gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
-            Time.timeScale = 0;
+            ExecuteDeath("Touch different Color");
+            // score = 0;
+            // gameOverText.SetActive(true);
+            // //gameObject.transform.localEulerAngles = new Vector3(0, 0, 0);
+            // //gameObject.GetComponent<Rigidbody>().angularVelocity = new Vector3(0, 0, 0);
+            // //gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
+            // Time.timeScale = 0;
         } 
+    }
+
+    void ExecuteDeath(string reason){
+        sending.Send(0, reason);
+        score = 0;
+        gameOverText.SetActive(true);
+        Time.timeScale = 0;
     }
 }
