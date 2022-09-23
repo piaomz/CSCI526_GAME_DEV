@@ -25,7 +25,7 @@ public class SendToGoogle : MonoBehaviour
     // Send();
 }
 
-public void Send()
+public void Send(int player, string reason)
 {
     // Assign variables
     // PlayerA = (PlayerA)GameObject.Find("PlayerA");
@@ -40,16 +40,18 @@ public void Send()
     long endTime = dto.ToUnixTimeSeconds();
     _gg_time = endTime-startTime;
 
-    StartCoroutine(Post(_sessionID.ToString(), _a_score.ToString(), _b_score.ToString(), _gg_time.ToString()));
+    StartCoroutine(Post(_sessionID.ToString(), _a_score.ToString(), _b_score.ToString(), _gg_time.ToString(), player.ToString(), reason));
 }
 
-private IEnumerator Post(string sessionID, string a_score, string b_score, string gg_time)
+private IEnumerator Post(string sessionID, string a_score, string b_score, string gg_time, string player, string reason)
 {
     WWWForm form = new WWWForm();
     form.AddField("entry.1651845501", sessionID);
     form.AddField("entry.1019025330", a_score);
     form.AddField("entry.1753151979", b_score);
     form.AddField("entry.1376096949", gg_time);
+    form.AddField("entry.1514440340", player);
+    form.AddField("entry.1671652077", reason);
 
     using (UnityWebRequest www = UnityWebRequest.Post(URL, form))
     {
