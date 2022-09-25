@@ -71,7 +71,7 @@ public class PlayerB : MonoBehaviour
     }
 
     void ExecuteDeath(string reason){
-        sending.Send(0, reason);
+        sending.Send(1, reason);
         score = 0;
         gameOverText.SetActive(true);
         Time.timeScale = 0;
