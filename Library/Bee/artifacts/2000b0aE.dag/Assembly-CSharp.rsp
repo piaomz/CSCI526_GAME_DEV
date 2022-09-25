@@ -345,6 +345,7 @@
 "Assets/Samples/Analytics/4.1.0/Standard Events/CustomEventSample.cs"
 "Assets/Samples/Analytics/4.1.0/Standard Events/StandardEventSample.cs"
 "Assets/Scripts/Camera.cs"
+"Assets/Scripts/CameraFollowingOneObj.cs"
 "Assets/Scripts/Coin.cs"
 "Assets/Scripts/Door.cs"
 "Assets/Scripts/OpenDoorA.cs"
@@ -352,6 +353,7 @@
 "Assets/Scripts/PlayerA.cs"
 "Assets/Scripts/PlayerB.cs"
 "Assets/Scripts/ReturnButton.cs"
+"Assets/Scripts/Scene3R2Play.cs"
 "Assets/Scripts/SendToGoogle.cs"
 -langversion:9.0
 
