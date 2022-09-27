@@ -23,7 +23,7 @@ public class Door : MonoBehaviour
         if (flagA ==1 && flagB==1 && isOpen==0) {
             isOpen=1;
             transform.position = new Vector3(transform.position.x,
-                transform.position.y + 1, transform.position.z);
+                transform.position.y + (float)1.5, transform.position.z);
         }
         
     }
