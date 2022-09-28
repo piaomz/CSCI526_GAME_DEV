@@ -5,10 +5,11 @@ using UnityEngine;
 public class OpenDoorB : MonoBehaviour
 {
     public Door door;
+    private GameObject flag;
     // Start is called before the first frame update
     void Start()
     {
-        
+        flag = this.gameObject.transform.GetChild(0).gameObject;
     }
 
     // Update is called once per frame
@@ -21,6 +22,7 @@ public class OpenDoorB : MonoBehaviour
     {
         if(other.tag == "PlayerB")
         {
+            flag.SetActive(false);
             print("open doorB");
             door.flagB = 1;
             door.SendMessage("Lift");
@@ -30,6 +32,7 @@ public class OpenDoorB : MonoBehaviour
     {
         if (other.tag == "PlayerB")
         {
+            flag.SetActive(true);
             door.flagB = 0;
         }
     }
