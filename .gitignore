@@ -1,4 +1,5 @@
 .DS_Store
 WebGL Builds/
 Library/
-Temps/
+Temp/
+Log/
