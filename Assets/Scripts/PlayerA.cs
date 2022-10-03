@@ -1,7 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
+
+
+public class ShowPopupExample : EditorWindow
+{
+    [MenuItem("Example/ShowPopup Example")]
+    static void Init()
+    {
+        ShowPopupExample window = ScriptableObject.CreateInstance<ShowPopupExample>();
+        window.position = new Rect(Screen.width / 2, Screen.height / 2, 250, 150);
+        window.ShowPopup();
+    }
+
+    void OnGUI()
+    {
+        EditorGUILayout.LabelField("This is an example of EditorWindow.ShowPopup", EditorStyles.wordWrappedLabel);
+        GUILayout.Space(70);
+        if (GUILayout.Button("Agree!")) this.Close();
+    }
+}
 
 public class PlayerA : MonoBehaviour
 {
@@ -70,7 +90,12 @@ public class PlayerA : MonoBehaviour
             // //gameObject.GetComponent<Rigidbody>().angularVelocity = new Vector3(0, 0, 0);
             // //gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
             // Time.timeScale = 0;
-        } 
+        }
+        else if (other.tag == "Notifier")
+        {
+           
+
+        }
     }
 
     void ExecuteDeath(string reason){
