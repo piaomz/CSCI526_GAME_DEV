@@ -11,8 +11,7 @@ public class Notifier : MonoBehaviour
     public Text textA;
     public Text textB;
     public Text textBarrier;
-    public Coin coinA;
-    public Coin coinB;
+    public GameObject water;
     public Text textCoin;
     public GameObject barrier;
     public GameObject colorZone;
@@ -41,10 +40,10 @@ public class Notifier : MonoBehaviour
             playerA.transform.position.z > barrier.transform.position.z - 5) ||
             (playerB.transform.position.z < barrier.transform.position.z &&
             playerB.transform.position.z > barrier.transform.position.z - 5));
-        textCoin.gameObject.SetActive(((playerA.transform.position.z < coinA.transform.position.z + 2 &&
-            playerA.transform.position.z > coinA.transform.position.z - 5 && coinA.gameObject.activeSelf) ||
-            (playerB.transform.position.z < coinB.transform.position.z + 2
-            && playerB.transform.position.z > coinB.transform.position.z - 5 && coinB.gameObject.activeSelf))
+        textCoin.gameObject.SetActive(((playerA.transform.position.z < water.transform.position.z + 2 &&
+            playerA.transform.position.z > water.transform.position.z - 5 ) ||
+            (playerB.transform.position.z < water.transform.position.z + 2
+            && playerB.transform.position.z > water.transform.position.z - 5))
             && textBarrier.gameObject.activeSelf == false);
         textColorZone.gameObject.SetActive(((playerA.transform.position.z < colorZone.transform.position.z &&
             playerA.transform.position.z > colorZone.transform.position.z - 5) ||
@@ -52,8 +51,8 @@ public class Notifier : MonoBehaviour
             playerB.transform.position.z > colorZone.transform.position.z - 5))
             && textBarrier.gameObject.activeSelf == false);
         textEndGame.gameObject.SetActive((playerA.transform.position.z < colorEndGame.transform.position.z &&
-            playerA.transform.position.z > colorEndGame.transform.position.z - 5) ||
+            playerA.transform.position.z > colorEndGame.transform.position.z - 10) ||
             (playerB.transform.position.z < colorEndGame.transform.position.z &&
-            playerB.transform.position.z > colorEndGame.transform.position.z - 5));
+            playerB.transform.position.z > colorEndGame.transform.position.z - 10));
     }
 }
