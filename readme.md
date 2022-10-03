@@ -4,7 +4,6 @@
 
 PLAY ME!!!
 
-MoreToon: https://play.unity.com/mg/other/webgl-builds-252888
 https://play.unity.com/mg/other/webgl-builds-254538
 
 https://play.unity.com/mg/other/webgl-builds-252797
