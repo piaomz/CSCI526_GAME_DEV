@@ -705,11 +705,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: 
+  cloudProjectId: 1a429632-72a2-4aac-8d12-39e9ba0b2f65
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: WaterSkiing
+  organizationId: mike7877
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
