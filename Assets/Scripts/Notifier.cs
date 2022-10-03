@@ -18,6 +18,7 @@ public class Notifier : MonoBehaviour
     public GameObject colorEndGame;
     public Text textColorZone;
     public Text textEndGame;
+    public Text textCongrats;
 
     // Start is called before the first frame update
     void Start()
@@ -50,9 +51,9 @@ public class Notifier : MonoBehaviour
             (playerB.transform.position.z < colorZone.transform.position.z &&
             playerB.transform.position.z > colorZone.transform.position.z - 5))
             && textBarrier.gameObject.activeSelf == false);
-        textEndGame.gameObject.SetActive((playerA.transform.position.z < colorEndGame.transform.position.z &&
+        textEndGame.gameObject.SetActive(((playerA.transform.position.z < colorEndGame.transform.position.z &&
             playerA.transform.position.z > colorEndGame.transform.position.z - 10) ||
             (playerB.transform.position.z < colorEndGame.transform.position.z &&
-            playerB.transform.position.z > colorEndGame.transform.position.z - 10));
+            playerB.transform.position.z > colorEndGame.transform.position.z - 10)) && textCongrats.gameObject.activeSelf == false);
     }
 }
