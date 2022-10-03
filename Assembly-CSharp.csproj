@@ -59,6 +59,7 @@
     <Compile Include="Assets/Scripts/OpenDoorA.cs" />
     <Compile Include="Assets/AurynSky/Forest Pack/Scripts/MaterialMover.cs" />
     <Compile Include="Assets/Scripts/Scene3R2Play.cs" />
+    <Compile Include="Assets/Scripts/Notifier.cs" />
     <Compile Include="Assets/Scripts/Coin.cs" />
     <Compile Include="Assets/Scripts/SendToGoogle.cs" />
     <Compile Include="Assets/Samples/Analytics/4.1.0/Standard Events/CustomEventSample.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="Assets/Scripts/EndGame.cs" />
     <Compile Include="Assets/Scripts/PlayerA.cs" />
     <Compile Include="Assets/Scripts/CameraFollowingOneObj.cs" />
+    <Compile Include="Assets/Scripts/Notifier1.cs" />
     <Compile Include="Assets/AurynSky/Forest Pack/Scripts/Rotator.cs" />
     <Compile Include="Assets/Samples/Analytics/4.1.0/Standard Events/StandardEventSample.cs" />
     <Compile Include="Assets/Samples/Analytics/4.1.0/Standard Events/AnalyticsEventHandler.cs" />
