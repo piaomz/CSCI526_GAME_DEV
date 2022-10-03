@@ -68,7 +68,6 @@
     <Compile Include="Assets/Scripts/EndGame.cs" />
     <Compile Include="Assets/Scripts/PlayerA.cs" />
     <Compile Include="Assets/Scripts/CameraFollowingOneObj.cs" />
-    <Compile Include="Assets/Scripts/Notifier1.cs" />
     <Compile Include="Assets/AurynSky/Forest Pack/Scripts/Rotator.cs" />
     <Compile Include="Assets/Samples/Analytics/4.1.0/Standard Events/StandardEventSample.cs" />
     <Compile Include="Assets/Samples/Analytics/4.1.0/Standard Events/AnalyticsEventHandler.cs" />
