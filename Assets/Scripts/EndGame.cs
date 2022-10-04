@@ -5,6 +5,7 @@ using UnityEngine;
 public class EndGame : MonoBehaviour
 {
     public GameObject contratulationText;
+    public GameObject theEndText;
     private int flagA = 0;
     private int flagB = 0;
 
@@ -33,6 +34,9 @@ public class EndGame : MonoBehaviour
         if(this.flagA ==1 && this.flagB ==1){
             Debug.Log("gameend");
             contratulationText.SetActive(true);
+            if(theEndText){
+                theEndText.SetActive(true);
+            }
             Time.timeScale = 0;
 
         }
