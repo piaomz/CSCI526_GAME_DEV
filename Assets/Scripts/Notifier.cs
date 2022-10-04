@@ -52,8 +52,8 @@ public class Notifier : MonoBehaviour
             playerB.transform.position.z > colorZone.transform.position.z - 5))
             && textBarrier.gameObject.activeSelf == false);
         textEndGame.gameObject.SetActive(((playerA.transform.position.z < colorEndGame.transform.position.z &&
-            playerA.transform.position.z > colorEndGame.transform.position.z - 10) ||
+            playerA.transform.position.z > colorEndGame.transform.position.z - 15) ||
             (playerB.transform.position.z < colorEndGame.transform.position.z &&
-            playerB.transform.position.z > colorEndGame.transform.position.z - 10)) && textCongrats.gameObject.activeSelf == false);
+            playerB.transform.position.z > colorEndGame.transform.position.z - 15)) && textCongrats.gameObject.activeSelf == false);
     }
 }
