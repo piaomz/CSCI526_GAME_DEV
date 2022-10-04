@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{D66145F5-53B6-54BE-1908-E3E17CF33F73}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerA.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Door.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/NextLevelButton.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerA.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CSCI526_GAME_DEV" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="67bf75fc-6f83-43b3-97d2-446d27e934ed" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

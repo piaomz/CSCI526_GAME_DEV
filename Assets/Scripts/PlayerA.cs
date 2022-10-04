@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
+
 
 public class PlayerA : MonoBehaviour
 {
@@ -70,7 +72,8 @@ public class PlayerA : MonoBehaviour
             // //gameObject.GetComponent<Rigidbody>().angularVelocity = new Vector3(0, 0, 0);
             // //gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
             // Time.timeScale = 0;
-        } 
+        }
+    
     }
 
     void ExecuteDeath(string reason){
