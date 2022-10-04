@@ -47,9 +47,9 @@ public class Notifier : MonoBehaviour
             && playerB.transform.position.z > water.transform.position.z - 5))
             && textBarrier.gameObject.activeSelf == false);
         textColorZone.gameObject.SetActive(((playerA.transform.position.z < colorZone.transform.position.z &&
-            playerA.transform.position.z > colorZone.transform.position.z - 5) ||
+            playerA.transform.position.z > colorZone.transform.position.z - 8) ||
             (playerB.transform.position.z < colorZone.transform.position.z &&
-            playerB.transform.position.z > colorZone.transform.position.z - 5))
+            playerB.transform.position.z > colorZone.transform.position.z - 8))
             && textBarrier.gameObject.activeSelf == false);
         textEndGame.gameObject.SetActive(((playerA.transform.position.z < colorEndGame.transform.position.z &&
             playerA.transform.position.z > colorEndGame.transform.position.z - 15) ||
