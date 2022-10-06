@@ -1,0 +1,529 @@
+(base) piaomz@piaomzdeMBP-21 CSCI526_GAME_DEV % git log -a
+commit 27ea57891e27ca6c482bd5a3db6706b4818dc853 (HEAD -> main, origin/main, origin/HEAD)
+Merge: 73a2066b 6665ac60
+Author: Mingzhe Piao <36374938+piaomz@users.noreply.github.com>
+Date:   Tue Oct 4 16:00:10 2022 -0700
+
+    Merge pull request #7 from piaomz/zhaoyilucyguo-patch-1
+    
+    add data analysis
+
+commit 6665ac60e72f4f449d9ad3db3b726c5cad99ae90 (origin/zhaoyilucyguo-patch-1)
+Author: zhaoyilucyguo <105838124+zhaoyilucyguo@users.noreply.github.com>
+Date:   Tue Oct 4 15:59:19 2022 -0700
+
+    add data analysis
+
+commit 73a2066b54fc3b88e94606451802d47339f7df86
+Merge: f9d8ccc9 fa62df1a
+Author: UXN-021 <haotangzhou@sina.com>
+Date:   Tue Oct 4 15:37:47 2022 -0700
+
+    Merge pull request #6 from piaomz/0.2art
+    
+    edit readme
+
+commit fa62df1a72592d5706f30486f3b4c86c59b120a9 (origin/0.2art)
+Merge: aba7dc33 f9d8ccc9
+Author: UXN-021 <haotangzhou@sina.com>
+Date:   Tue Oct 4 15:32:12 2022 -0700
+
+    Merge branch 'main' into 0.2art
+
+commit aba7dc33a438a0b5ac6f07b95d0b2489b193f99c
+Author: HaoTangzhou <haotangzhou@sina.com>
+Date:   Tue Oct 4 15:26:37 2022 -0700
+
+    edit readme
+
+commit f9d8ccc91a25163b33191aeb611d6f365c38d9fa
+Author: Mingzhe Piao <36374938+piaomz@users.noreply.github.com>
+Date:   Tue Oct 4 15:06:11 2022 -0700
+
+    Update readme.md
+
+commit 9d804832ef48914582431d8b0bf7144faf5169db
+Merge: d0d99132 ee765947
+Author: Mingzhe Piao <36374938+piaomz@users.noreply.github.com>
+Date:   Tue Oct 4 14:48:27 2022 -0700
+
+    Merge pull request #5 from piaomz/0.2art
+    
+    0.2art
+
+commit ee7659471fe5bf5e9af4ec408368c558bfaf05cb
+Author: pocky1023 <764151571@qq.com>
+Date:   Tue Oct 4 14:43:27 2022 -0700
+
+    readmelink
+
+commit a09d7180ca1742309b4a74bf07a73fe237e8c9db
+Author: pocky1023 <764151571@qq.com>
+Date:   Tue Oct 4 14:26:59 2022 -0700
+
+    fontandoutline
+
+commit ee9da6fbce12f5ad77d156bcf2a6abbac29374d4
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Tue Oct 4 01:38:15 2022 -0700
+
+    outline
+
+commit 911736fb7d3ebf2f25b863bce0f32bf3a8381abe
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Tue Oct 4 01:12:45 2022 -0700
+
+    readmeLink & filedelete
+
+commit 2805c747b72c76cdf87f8490b4f398c63422cd0e
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Tue Oct 4 01:09:49 2022 -0700
+
+    Add fog adjust water
+
+commit a29a9f7a920e75b10585acfe70959e6d34e15572
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Tue Oct 4 00:53:41 2022 -0700
+
+    AdjustshadowDistance
+
+commit a9e215858aef850c0ef0e2df0fb876e079b5cc41
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Tue Oct 4 00:38:22 2022 -0700
+
+    fixsmallbugs
+
+commit 03bb1b27ff4d7ee94fd9f0239ee3eb872cf94249
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Tue Oct 4 00:30:55 2022 -0700
+
+    addlevel0.1toBuild
+
+commit 6f2ed0720479f9f4331c8f90dad8d0e846269e30
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Tue Oct 4 00:28:45 2022 -0700
+
+    create canvas prefab
+
+commit 90ad1f3b7713a995dd9676fa6fa4a45ef2764b06
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Mon Oct 3 23:53:48 2022 -0700
+
+    level0.1lightandmapAdjustment
+
+commit 35ff3ca346b53adcf0ceff548f030e6946bcab3a
+Author: pocky1023 <764151571@qq.com>
+Date:   Mon Oct 3 23:23:46 2022 -0700
+
+    nextlevel
+
+commit 8688464b311e8beaf9672a731de99349e8238e49
+Author: pocky1023 <764151571@qq.com>
+Date:   Mon Oct 3 23:20:15 2022 -0700
+
+    locofarea
+
+commit 52919350b56178d33c9dd78661f9d7726884e515
+Author: pocky1023 <764151571@qq.com>
+Date:   Mon Oct 3 23:16:20 2022 -0700
+
+    endgametext
+
+commit ad37982bf821051a5664085472d6bd5b252f0c43
+Author: Shuyu Zhao <shuyuzhao@Shuyus-Air.attlocal.net>
+Date:   Mon Oct 3 22:12:25 2022 -0700
+
+    add level 0.1
+
+commit 0e977d04c0727e0f2cc4c758c1951eea015df76f
+Author: pocky1023 <764151571@qq.com>
+Date:   Mon Oct 3 01:32:40 2022 -0700
+
+    createunityid
+
+commit 5a78ff2b685809d0bb2adf276d773d0e33adab8e
+Author: pocky1023 <764151571@qq.com>
+Date:   Mon Oct 3 00:58:35 2022 -0700
+
+    readme_link
+
+commit 3122b74de05d01c5cb82184a2af5c1aebfd31576
+Author: pocky1023 <764151571@qq.com>
+Date:   Mon Oct 3 00:53:26 2022 -0700
+
+    textoutline
+
+commit 9187bbf113f528d1c0a03e6e863c7a5559efce99
+Author: pocky1023 <764151571@qq.com>
+Date:   Mon Oct 3 00:35:09 2022 -0700
+
+    textcolor
+
+commit 41a6f51c203f2b4b345d6c224091b15487f9e496
+Author: pocky1023 <764151571@qq.com>
+Date:   Mon Oct 3 00:21:32 2022 -0700
+
+    delete_text
+
+commit d4601c6512346250f67ef59f75f56527e9373b23
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Sun Oct 2 23:28:51 2022 -0700
+
+    addlevel0build
+
+commit 60b50b75e7676a73fffed028649d8d8ba5d6726a
+Author: Regina Hu <hupei@MacBook-Pro.attlocal.net>
+Date:   Sun Oct 2 23:22:08 2022 -0700
+
+    add screen scaler
+
+commit fb3c3d4e40180d847386d1c42a339f4d5f5bc7b7
+Author: Regina Hu <hupei@MacBook-Pro.attlocal.net>
+Date:   Sun Oct 2 22:59:05 2022 -0700
+
+    remove unused components
+
+commit 4132b3f42d7de74543105a46981ee44aa6decd44
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Sun Oct 2 22:41:51 2022 -0700
+
+    level0mapadjust
+
+commit cd5462522f50a0b461367265ad7537a6505689ec
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Sun Oct 2 22:37:49 2022 -0700
+
+    level0tolevel1link
+
+commit 96930cf53fa0ae7ccf7281d2a57331835eb288b3
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Sun Oct 2 22:36:18 2022 -0700
+
+    textLayerAdjust
+
+commit 4c641b6327468dbeedcaed01b3b2643d77cea6b9
+Author: Regina Hu <hupei@MacBook-Pro.attlocal.net>
+Date:   Sun Oct 2 22:16:14 2022 -0700
+
+    improve level 0
+
+commit aa8fa744aca4a494347892302b63c2708602c2f3
+Merge: a94c544c 7a77b02d
+Author: Regina Hu <hupei@MacBook-Pro.attlocal.net>
+Date:   Sun Oct 2 21:43:21 2022 -0700
+
+    resolve conflict
+
+commit a94c544c735a023309974e767a19b85708880522
+Author: Regina Hu <hupei@MacBook-Pro.attlocal.net>
+Date:   Sun Oct 2 21:39:49 2022 -0700
+
+    improve level 0
+
+commit 7a77b02da90a6f920f85f666c2b2bce541ec4aad
+Author: reginaHuPeifeng <98447491+reginaHuPeifeng@users.noreply.github.com>
+Date:   Sun Oct 2 17:50:49 2022 -0700
+
+    Delete Logs directory
+
+commit fe1835c310db438a53e5706c41aa655632599c35
+Author: reginaHuPeifeng <98447491+reginaHuPeifeng@users.noreply.github.com>
+Date:   Sun Oct 2 17:50:31 2022 -0700
+
+    Update .gitignore
+
+commit 52763de6b969fefbd8dc467ee0a0e60892c71a28
+Author: Regina Hu <hupei@MacBook-Pro.local>
+Date:   Sun Oct 2 17:49:18 2022 -0700
+
+    improve level 0
+
+commit 52e420ad86319e511961d4063cf1ac5ef30dda56
+Author: reginaHuPeifeng <98447491+reginaHuPeifeng@users.noreply.github.com>
+Date:   Sat Oct 1 19:45:01 2022 -0700
+
+    Delete Logs directory
+
+commit d6c636a2d790954c31ad68f40c0fd86133e318e2
+Author: reginaHuPeifeng <98447491+reginaHuPeifeng@users.noreply.github.com>
+Date:   Sat Oct 1 19:44:46 2022 -0700
+
+    Delete Temp directory
+
+commit 989ce64e0ca8a81db41bb42469fa8db5831f960a
+Author: reginaHuPeifeng <98447491+reginaHuPeifeng@users.noreply.github.com>
+Date:   Sat Oct 1 19:44:08 2022 -0700
+
+    Update .gitignore
+
+commit 6be4f297846008db008fe03333cf4bf9754a8cee
+Author: reginaHuPeifeng <98447491+reginaHuPeifeng@users.noreply.github.com>
+Date:   Sat Oct 1 19:43:45 2022 -0700
+
+    Update .gitignore
+
+commit 6acd8081a32a2bf339ea62c8d1c2751ee056550b
+Merge: 9e8d7b74 29a94416
+Author: Regina Hu <hupei@MacBook-Pro.attlocal.net>
+Date:   Sat Oct 1 19:42:22 2022 -0700
+
+    changes for adding level 0
+
+commit 9e8d7b74215aa6126928132ec20d4ab1b4794cda
+Author: Regina Hu <hupei@MacBook-Pro.attlocal.net>
+Date:   Sat Oct 1 19:30:42 2022 -0700
+
+    create level 0
+
+commit 29a944163626cb78dfc742b2caff236c0dd64cdd
+Author: reginaHuPeifeng <98447491+reginaHuPeifeng@users.noreply.github.com>
+Date:   Sat Oct 1 19:28:54 2022 -0700
+
+    Delete Level0.unity.meta
+
+commit 18c69eb62c2e31345d70893a7c149c37192a2a47
+Author: reginaHuPeifeng <98447491+reginaHuPeifeng@users.noreply.github.com>
+Date:   Sat Oct 1 19:28:45 2022 -0700
+
+    Delete Level0.unity
+
+commit 1459a788e08a0fdce606ca1ca1d7483078191c4f
+Author: Shuyuzhaooo <112579555+Shuyuzhaooo@users.noreply.github.com>
+Date:   Thu Sep 29 14:43:57 2022 -0700
+
+    Delete shadercompiler-UnityShaderCompiler7.log
+
+commit 3dfd6722284f51c9a490841144d0be95f18a559e
+Author: Shuyuzhaooo <112579555+Shuyuzhaooo@users.noreply.github.com>
+Date:   Thu Sep 29 14:43:50 2022 -0700
+
+    Delete shadercompiler-UnityShaderCompiler6.log
+
+commit 5b7cc0bc399412a8c086c3a163684b00e95740e5
+Author: Shuyuzhaooo <112579555+Shuyuzhaooo@users.noreply.github.com>
+Date:   Thu Sep 29 14:43:43 2022 -0700
+
+    Delete shadercompiler-UnityShaderCompiler5.log
+
+commit 889dd3fb07a3d9707c532bc8671028dc3ba6369e
+Author: Shuyuzhaooo <112579555+Shuyuzhaooo@users.noreply.github.com>
+Date:   Thu Sep 29 14:43:37 2022 -0700
+
+    Delete shadercompiler-UnityShaderCompiler4.log
+
+commit 5fccd2683512981ea5c30b03f080e2a5db21dadf
+Author: Shuyuzhaooo <112579555+Shuyuzhaooo@users.noreply.github.com>
+Date:   Thu Sep 29 14:43:31 2022 -0700
+
+    Delete shadercompiler-UnityShaderCompiler3.log
+
+commit 27f7c17a8cb37cbf244a4ada8a112e61565db4e5
+Author: Shuyuzhaooo <112579555+Shuyuzhaooo@users.noreply.github.com>
+Date:   Thu Sep 29 14:43:25 2022 -0700
+
+    Delete shadercompiler-UnityShaderCompiler2.log
+
+commit 7d4644d61204822d63ee889c3f7c6dd25f19864d
+Author: Shuyuzhaooo <112579555+Shuyuzhaooo@users.noreply.github.com>
+Date:   Thu Sep 29 14:43:16 2022 -0700
+
+    Delete shadercompiler-UnityShaderCompiler1.log
+
+commit 5b45839fb1ca20d3ded9c1af1ccdfbfa86269071
+Author: Shuyuzhaooo <112579555+Shuyuzhaooo@users.noreply.github.com>
+Date:   Thu Sep 29 14:43:08 2022 -0700
+
+    Delete shadercompiler-UnityShaderCompiler0.log
+
+commit b94b3984a3625f77198cc5ad55fdcdfb59ec9634
+Author: Shuyuzhaooo <112579555+Shuyuzhaooo@users.noreply.github.com>
+Date:   Thu Sep 29 14:42:59 2022 -0700
+
+    Delete shadercompiler-AssetImportWorker0.log
+
+commit ac8331435037602ecb40889b2c761f4cd30667a9
+Author: Shuyuzhaooo <112579555+Shuyuzhaooo@users.noreply.github.com>
+Date:   Thu Sep 29 14:42:50 2022 -0700
+
+    Delete Packages-Update.log
+
+commit 65284586ee90719c2775b813e9f9397f06994b58
+Author: Shuyuzhaooo <112579555+Shuyuzhaooo@users.noreply.github.com>
+Date:   Thu Sep 29 14:42:41 2022 -0700
+
+    Delete AssetImportWorker1.log
+
+commit 19ec2f8df0386a4056cae747cb75579997fc210a
+Author: Shuyuzhaooo <112579555+Shuyuzhaooo@users.noreply.github.com>
+Date:   Thu Sep 29 14:42:34 2022 -0700
+
+    Delete AssetImportWorker0.log
+
+commit d3b3bdce2a5034d3eca238345d759a51c462981f
+Author: Shuyu Zhao <shuyuzhao@Shuyus-MacBook-Air.local>
+Date:   Thu Sep 29 14:02:05 2022 -0700
+
+     add level0 scence
+
+commit 4a2bd866ac2fec8630825e27de8a36ec3eda714c
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Wed Sep 28 22:24:07 2022 -0700
+
+    coloradjustment
+
+commit 9ffe74958a1ae486358c4d774512177c78c774fb
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Wed Sep 28 22:16:09 2022 -0700
+
+    versioncontrolvisablefiles
+
+commit f17077e159695bbb453a9b677ea9ca2e854674ab
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Wed Sep 28 22:14:22 2022 -0700
+
+    moretoon
+
+commit e13ce2aa8f6b00a6ebb4979ca60a2dfccd4bfdf3
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Wed Sep 28 22:08:44 2022 -0700
+
+    moreToon
+
+commit f90791dc43ed9f3edee18a1605fc9a2facf720e8
+Author: Mai <mailiu@usc.edu>
+Date:   Wed Sep 28 16:28:36 2022 -0700
+
+    readme
+
+commit ecf71b1ac2a0483ec9896154a7db15d34293cee2
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Wed Sep 28 16:07:52 2022 -0700
+
+    artdoor
+
+commit b400fc4f639e285bba767126c2cf20ee5acfb58d
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Wed Sep 28 04:04:25 2022 -0700
+
+    changeartdesign
+
+commit c251d69a4337ae670188e460957985f14594548c (origin/0.2)
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Wed Sep 28 02:37:30 2022 -0700
+
+    floor2cube mapAllPrefab
+
+commit 9e08733b8842be1c38f5a4f748567e6ebb91356e
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Wed Sep 28 00:45:28 2022 -0700
+
+    cameraAdjustmen level3splitLinet
+
+commit d0d99132ef900c916380d403e697ab84aac7181d
+Merge: 32650200 20c21003
+Author: piaomz <36374938+piaomz@users.noreply.github.com>
+Date:   Tue Sep 27 14:27:44 2022 -0700
+
+    Merge pull request #4 from piaomz/0.2
+    
+    0.2
+
+commit 20c210030394013274f69d5c2a1637765f4a1169
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Tue Sep 27 14:21:09 2022 -0700
+
+    new link
+
+commit 4bc0a41ed8f80d3750ad4482dab0d2b24cd8b729
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Tue Sep 27 02:27:19 2022 -0700
+
+    Level1(Scene1) SceneSwitcher LibraryRemove&Ignore(LargeFileError)
+
+commit 1f9a2d29ee3878daabe215b5d6bc77f61779ec3d
+Author: Frank Yao <1404815414@qq.com>
+Date:   Sat Sep 24 22:27:29 2022 -0700
+
+    built Scene3
+
+commit b15293413af433dc5a212b65ccf95414c1d162ed (origin/0.1)
+Author: Frank Yao <1404815414@qq.com>
+Date:   Fri Sep 23 16:45:31 2022 -0700
+
+    change big level x y to 0
+
+commit b63d896a5bab42442ef1ac6dc51cf3625b64046c
+Author: Frank Yao <1404815414@qq.com>
+Date:   Fri Sep 23 16:24:00 2022 -0700
+
+    change big level to 0
+
+commit 406245399badb55a368b6bab66db8ef23d2b6921
+Author: Frank Yao <1404815414@qq.com>
+Date:   Wed Sep 21 05:25:11 2022 -0700
+
+    add analysis system and change camera angle,(original was y8z-7field100)
+
+commit 809366a51dca4c1d40f1efccc5e17ac1f35a71d5
+Merge: aed5d3e0 32650200
+Author: piaomz <36374938+piaomz@users.noreply.github.com>
+Date:   Mon Sep 19 01:00:13 2022 -0700
+
+    Merge pull request #3 from piaomz/main
+    
+    merge0.1 Sep 19
+
+commit 32650200720efe3a36723e88c4793eb4d8869667
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Mon Sep 19 00:53:38 2022 -0700
+
+    merge0.1 Sep 19
+
+commit aed5d3e0bacf7ddd721e3714102641088859bd93
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Sat Sep 17 21:44:06 2022 -0700
+
+    joyStick .DS_STORE-ignore sequence change
+
+commit 5cacf46540e69b53bfc7a998444c28a1eb4eb939
+Author: Mai <mailiu@usc.edu>
+Date:   Sat Sep 17 17:51:28 2022 -0700
+
+    roadspeedrop
+
+commit 928662bf2ba90394a86f57b9320e4d9f575c60ba
+Author: Mai <mailiu@usc.edu>
+Date:   Sat Sep 17 17:33:42 2022 -0700
+
+    road
+
+commit 30c71f14918e5964d844afbd09e56778472c8119
+Author: Mai <mailiu@usc.edu>
+Date:   Fri Sep 9 21:05:23 2022 -0700
+
+    0.1build
+
+commit 9ea0c12837c2cb68d92b669c3629140cfa8c6691
+Author: piaomz <piaomz1999@gmail.com>
+Date:   Fri Sep 9 20:45:20 2022 -0700
+
+    0.1enemy
+
+commit bff97e4117d8bdc40f08d6ad76729b20de2b4ffc
+Author: Mai <mailiu@usc.edu>
+Date:   Fri Sep 9 15:45:52 2022 -0700
+
+    0.1door
+
+commit 653d8f2ecf5fde0d15f3f4d505ad864912f0f9db
+Author: Mai <mailiu@usc.edu>
+Date:   Thu Sep 8 22:58:29 2022 -0700
+
+    0.1
+
+commit 3333cc70023fe19fa308dccd3f265128c188ab2b
+Author: Mai <mailiu@usc.edu>
+Date:   Sat Sep 3 22:21:55 2022 -0700
+
+    gameproto
+(END)
