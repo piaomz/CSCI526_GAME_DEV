@@ -21,7 +21,7 @@
             {
                 "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "buildOutputDirList",
-                "value": "{\"m_Value\":\"/Users/piaomz/Desktop/CSCI526_GAME_DEV/CSCI526_GAME_DEV/WebGL Builds/WebGl;D:/github/CSCI526_GAME_DEV/WebGL Builds;/Users/hupei/Unity_Project/CSCI526_GAME_DEV/WebGL Builds;/Users/piaomz/Desktop/CSCI526_GAME_DEV/CSCI526_GAME_DEV/WebGL Builds;C:/Users/14048/Desktop/CSCI526_GAME_DEV/WebGL Builds;/Users/piaomz/Desktop/CSCI526_GAME_DEV/Build;;;;\"}"
+                "value": "{\"m_Value\":\"D:/github/CSCI526_GAME_DEV/WebGL Builds;/Users/piaomz/Desktop/CSCI526_GAME_DEV/CSCI526_GAME_DEV/WebGL Builds/WebGl;/Users/hupei/Unity_Project/CSCI526_GAME_DEV/WebGL Builds;/Users/piaomz/Desktop/CSCI526_GAME_DEV/CSCI526_GAME_DEV/WebGL Builds;C:/Users/14048/Desktop/CSCI526_GAME_DEV/WebGL Builds;/Users/piaomz/Desktop/CSCI526_GAME_DEV/Build;;;;\"}"
             }
         ]
     }
