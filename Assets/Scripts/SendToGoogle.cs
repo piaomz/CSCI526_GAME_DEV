@@ -53,6 +53,10 @@ public void Send(int player, string reason)
     StartCoroutine(Post(_elapse_time.ToString(), player.ToString(), reason));
 }
 
+public void PrintStatus(){
+    Debug.Log(string.Join(",", coin_get_times));
+}
+
 public void UpdateCheckPoint(string check_point_name){
     int index = check_point_name_to_idx[check_point_name];
     // only when first time reach
@@ -113,13 +117,37 @@ void initializeHashmaps(string cur_level){
     switch(cur_level) 
     {
     case "Level0.1":
-        check_point_name_to_idx.Add("Coin (1)", 0);
+        coin_achieve_name_to_idx.Add("Coin (2)", 0);
+        coin_achieve_name_to_idx.Add("CoinB (2)", 1);
+        coin_achieve_name_to_idx.Add("Coin (1)", 2);
+        coin_achieve_name_to_idx.Add("CoinB (1)", 3);
+        coin_achieve_name_to_idx.Add("Coin (4)", 4);
+        coin_achieve_name_to_idx.Add("CoinB (4)", 5);
+        check_point_name_to_idx.Add("doorA", 0);
+        check_point_name_to_idx.Add("doorB", 1);
         break;
     case "Level0":
-        // code block
+        coin_achieve_name_to_idx.Add("Coin (6)", 0);
+        coin_achieve_name_to_idx.Add("CoinB (6)", 1);
+        coin_achieve_name_to_idx.Add("Coin (4)", 2);
+        coin_achieve_name_to_idx.Add("CoinB (4)", 3);
+        coin_achieve_name_to_idx.Add("Coin (5)", 4);
+        coin_achieve_name_to_idx.Add("CoinB (5)", 5);
         break;
     case "Level1":
-        // code block
+        coin_achieve_name_to_idx.Add("Coin (3)", 0);
+        coin_achieve_name_to_idx.Add("CoinB (3)", 1);
+        coin_achieve_name_to_idx.Add("Coin (2)", 2);
+        coin_achieve_name_to_idx.Add("CoinB (2)", 3);
+        coin_achieve_name_to_idx.Add("Coin (1)", 4);
+        coin_achieve_name_to_idx.Add("CoinB (1)", 5);
+        coin_achieve_name_to_idx.Add("Coin (5)", 6);
+        coin_achieve_name_to_idx.Add("CoinB (5)", 7);
+        coin_achieve_name_to_idx.Add("Coin (4)", 8);
+        coin_achieve_name_to_idx.Add("CoinB (4)", 9);
+        coin_achieve_name_to_idx.Add("Coin (6)", 10);
+        coin_achieve_name_to_idx.Add("CoinB (6)", 11);
+        check_point_name_to_idx.Add("doorAB", 0);
         break;
     case "Level2":
         // code block
@@ -150,7 +178,7 @@ void initializeHashmaps(string cur_level){
         initializeHashmaps(cur_level);
         is_live = true;
         check_point_times = new long[10];
-        coin_get_times = new long[10];
+        coin_get_times = new long[12];
 
         Debug.Log("start" + cur_level);
     }

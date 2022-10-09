@@ -24,6 +24,7 @@ public class EndGame : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
+        // sending.PrintStatus();
         if(other.tag == "PlayerA")
         {
             this.flagA = 1;

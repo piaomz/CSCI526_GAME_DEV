@@ -44,6 +44,7 @@ public class PlayerB : MonoBehaviour
         //Debug.Log("OnTriggerEnter" + other.tag);
         if (other.tag == "CoinB")
         {
+            sending.UpdateCoinAchieve(other.gameObject.name);
             Destroy(other.gameObject);
             score++;
             scoreText.text = "B Score : " + score;
