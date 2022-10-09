@@ -86,13 +86,14 @@ private IEnumerator Post(string elapse_time, string player, string reason)
     form.AddField("entry.1651845501", _session_ID.ToString());// end timestamp
     form.AddField("entry.1038671093", cur_level);
     form.AddField("entry.996748938", is_live.ToString());// true live, false died
-    form.AddField("entry.1019025330", _a_score.ToString());
+    form.AddField("entry.1019025330", _a_score.ToString());// score when die or pass level
     form.AddField("entry.1753151979", _b_score.ToString());
     form.AddField("entry.1376096949", elapse_time);// in second
     form.AddField("entry.1514440340", player);// cause die 0 for left ball, 1 for right ball, -1 pass level no death
     form.AddField("entry.1671652077", reason);// death reason, if pass, empty string 
     form.AddField("entry.1713748400", string.Join(",", check_point_times));
-    form.AddField("entry.410156034", string.Join(",", coin_get_times));
+    // check point: gate, sorted(mapped) by distance from start, store finish check point time, check_point_times[i]: pass time at check point i, length == max(points from levels)
+    form.AddField("entry.410156034", string.Join(",", coin_get_times));// coin time
 
 
     using (UnityWebRequest www = UnityWebRequest.Post(URL, form))
