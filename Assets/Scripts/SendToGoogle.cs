@@ -150,9 +150,30 @@ void initializeHashmaps(string cur_level){
         check_point_name_to_idx.Add("doorAB", 0);
         break;
     case "Level2":
-        // code block
+        coin_achieve_name_to_idx.Add("Coin (3)", 0);
+        coin_achieve_name_to_idx.Add("CoinB (3)", 1);
+        coin_achieve_name_to_idx.Add("Coin (2)", 2);
+        coin_achieve_name_to_idx.Add("CoinB (2)", 3);
+        coin_achieve_name_to_idx.Add("Coin (1)", 4);
+        coin_achieve_name_to_idx.Add("CoinB (1)", 5);
+        coin_achieve_name_to_idx.Add("Coin (4)", 6);
+        coin_achieve_name_to_idx.Add("CoinB (4)", 7);
+        coin_achieve_name_to_idx.Add("CoinB (5)", 8);
+        coin_achieve_name_to_idx.Add("Coin (5)", 9);
+        check_point_name_to_idx.Add("doorA", 0);
+        check_point_name_to_idx.Add("doorB", 1);
+        check_point_name_to_idx.Add("doorAB", 3);
         break;
     case "Level3":
+        coin_achieve_name_to_idx.Add("Coin (3)", 0);
+        coin_achieve_name_to_idx.Add("CoinB (3)", 1);
+        coin_achieve_name_to_idx.Add("Coin (1)", 2);
+        coin_achieve_name_to_idx.Add("CoinB (1)", 3);
+        coin_achieve_name_to_idx.Add("Coin (2)", 4);
+        coin_achieve_name_to_idx.Add("CoinB (2)", 5);
+        check_point_name_to_idx.Add("doorA", 0);
+        check_point_name_to_idx.Add("doorB", 1);
+        check_point_name_to_idx.Add("doorAB", 3);
         // code block
         break;
     default:
