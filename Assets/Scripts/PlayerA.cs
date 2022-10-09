@@ -45,9 +45,12 @@ public class PlayerA : MonoBehaviour
         //Debug.Log("OnTriggerEnter" + other.tag);
         if (other.tag == "CoinA")
         {
+            // Debug.Log(other.gameObject.name);
+            sending.UpdateCoinAchieve(other.gameObject.name);
             Destroy(other.gameObject);
             score++;
             scoreText.text = "A Score : " + score;
+            
             //if (score == 3)
             //{
             //    winText.SetActive(true);
@@ -77,6 +80,7 @@ public class PlayerA : MonoBehaviour
     }
 
     void ExecuteDeath(string reason){
+        sending.SetDeath();
         sending.Send(0, reason);
         score = 0;
         gameOverText.SetActive(true);
