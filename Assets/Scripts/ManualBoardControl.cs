@@ -30,7 +30,7 @@ public class ManualBoardControl : MonoBehaviour
             }
             else
             {
-                ManualBoard.text = "'          :show and hide manual\nwasd  :control player 1\n↑↓←→:control player 2";
+                ManualBoard.text = "'          :show and hide manual\nwasd  :control player 1\n↑↓←→:control player 2\nv         :separate view or not\nb         :change view angle";
                 show = true;
             }
         }
