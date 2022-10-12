@@ -76,6 +76,10 @@ public class PlayerB : MonoBehaviour
         sending.Send(1, reason);
         score = 0;
         gameOverText.SetActive(true);
+        gameObject.transform.localEulerAngles = new Vector3(0, 0, 0);
+        gameObject.GetComponent<Rigidbody>().angularVelocity = new Vector3(0, 0, 0);
+        gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
         Time.timeScale = 0;
+
     }
 }
