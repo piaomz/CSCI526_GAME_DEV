@@ -4,6 +4,8 @@
 
 PLAY ME!!!
 
+with drag: https://play.unity.com/mg/other/webgl-builds-258172
+
 https://play.unity.com/mg/other/webgl-builds-255174
 
 ## Unity Editor Version
