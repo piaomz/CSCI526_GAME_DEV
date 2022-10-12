@@ -13,6 +13,8 @@ public class PlayerA : MonoBehaviour
     public GameObject gameOverText;
     public int deadLiney = -3;
     public SendToGoogle sending;
+    private float drag= 0.85f;
+    private float maxV=25;
     //private GameObject winText;
     //private Rigidbody door;
     // Start is called before the first frame update
@@ -26,7 +28,12 @@ public class PlayerA : MonoBehaviour
     {
         float h = Input.GetAxis("Horizontal2");//-1 1
         float v = Input.GetAxis("Vertical2");//ws
-        rd.AddForce(new Vector3(600*h * Time.fixedDeltaTime, 0, 600*v * Time.fixedDeltaTime));
+        if(gameObject.GetComponent<Rigidbody>().velocity.magnitude<maxV){
+            rd.AddForce(new Vector3(3400 * h * Time.fixedDeltaTime, 0, 3400 * v * Time.fixedDeltaTime));
+        }
+        gameObject.GetComponent<Rigidbody>().velocity=new Vector3(gameObject.GetComponent<Rigidbody>().velocity.x*drag,gameObject.GetComponent<Rigidbody>().velocity.y,gameObject.GetComponent<Rigidbody>().velocity.z*drag);
+        if(h<=0.2&& h>=-0.2 && v <= 0.2&&v>=-0.2){ 
+        }
         if (transform.position.y < deadLiney)
         {
             ExecuteDeath("Fall");
