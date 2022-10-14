@@ -28,7 +28,17 @@ public class SendToGoogle : MonoBehaviour
     private void Awake()
 {
     // Assign sessionID to identify playtests
-    _session_ID = System.DateTime.Now.Ticks;
+    if(GlobalVariables._session_ID == 0)
+    {
+        _session_ID = System.DateTime.Now.Ticks;
+        GlobalVariables._session_ID = _session_ID;
+    }
+    else{
+        _session_ID = GlobalVariables._session_ID;
+    }
+    Debug.Log(_session_ID);
+    
+    // DontDestroyOnLoad(gameObject);
     // Send();
 }
 
