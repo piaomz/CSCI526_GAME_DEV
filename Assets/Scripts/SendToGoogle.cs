@@ -36,7 +36,7 @@ public class SendToGoogle : MonoBehaviour
     else{
         _session_ID = GlobalVariables._session_ID;
     }
-    Debug.Log(_session_ID);
+    // Debug.Log(_session_ID);
     
     // DontDestroyOnLoad(gameObject);
     // Send();

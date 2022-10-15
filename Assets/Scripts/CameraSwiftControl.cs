@@ -10,7 +10,7 @@ public class CameraSwiftControl : MonoBehaviour
     public GameObject CameraA;
     public GameObject CameraB;
     public GameObject CameraTogether;
-    private bool together;
+    private bool together = true;
 
 
     private bool is_original_angle;
@@ -20,6 +20,16 @@ public class CameraSwiftControl : MonoBehaviour
     private Vector3 upper_angle_position;
     private Quaternion upper_angle_rotation;
     private float upper_FOV = 15; 
+
+    // space control
+    private bool is_pressing_space = false;
+    private long space_press_down_timestamp;
+    private float space_original_FOV; // to return to original FOV
+    private float space_target_FOV;
+    private float space_increasing_range = 10;
+    private float space_increasing_speed = 1;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -91,6 +101,58 @@ public class CameraSwiftControl : MonoBehaviour
                 CameraTogether.GetComponent<Camera>().fieldOfView = upper_FOV;
                 CameraTogether.GetComponent<CameraMainFollowing>().SetOffset(upper_angle_position);
                 is_original_angle = true;
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            // Debug.Log("press detected");
+            is_pressing_space = true;
+            DateTimeOffset dto = new DateTimeOffset(DateTime.UtcNow);
+            space_press_down_timestamp = dto.ToUnixTimeSeconds();
+            if(together)
+            {
+                space_original_FOV = CameraTogether.GetComponent<Camera>().fieldOfView;
+            }
+            else
+            {
+                space_original_FOV = CameraA.GetComponent<Camera>().fieldOfView = upper_FOV;
+            }
+            space_target_FOV = space_original_FOV + space_increasing_range;
+        }
+        
+        if (is_pressing_space)
+        {
+            // Debug.Log(is_pressing_space);
+            DateTimeOffset dto = new DateTimeOffset(DateTime.UtcNow);
+            long cur_time = dto.ToUnixTimeSeconds();
+            if(together)
+            {
+                if(CameraTogether.GetComponent<Camera>().fieldOfView < space_target_FOV)
+                {
+                    CameraTogether.GetComponent<Camera>().fieldOfView = space_original_FOV + (cur_time - space_press_down_timestamp) * space_increasing_speed;
+                }
+                // Debug.Log(CameraTogether.GetComponent<Camera>().fieldOfView);
+            }
+            else
+            {
+                if(CameraA.GetComponent<Camera>().fieldOfView < space_target_FOV)
+                {
+                    CameraA.GetComponent<Camera>().fieldOfView = space_original_FOV + (cur_time - space_press_down_timestamp) * space_increasing_speed;
+                    CameraB.GetComponent<Camera>().fieldOfView = space_original_FOV + (cur_time - space_press_down_timestamp) * space_increasing_speed;
+                }
+            }
+        }
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            is_pressing_space = false;
+            if(together)
+            {
+                CameraTogether.GetComponent<Camera>().fieldOfView = space_original_FOV;
+            }
+            else
+            {
+                CameraA.GetComponent<Camera>().fieldOfView = space_original_FOV;
+                CameraB.GetComponent<Camera>().fieldOfView = space_original_FOV;
             }
         }
     }
