@@ -27,13 +27,13 @@ public class CameraSwiftControl : MonoBehaviour
     private float space_original_FOV; // to return to original FOV
     private float space_target_FOV;
     private float space_increasing_range = 10;
-    private float space_increasing_speed = 1;
+    private float space_increasing_speed = 0.001f; // in millisecond
 
 
     // Start is called before the first frame update
     void Start()
     {
-        together = false;
+        together = true;
         is_original_angle = true;
         original_angle_position = new Vector3(0, (float)11, -11);
         original_angle_rotation = Quaternion.Euler((float)29.3, 0, 0);
@@ -108,7 +108,7 @@ public class CameraSwiftControl : MonoBehaviour
             // Debug.Log("press detected");
             is_pressing_space = true;
             DateTimeOffset dto = new DateTimeOffset(DateTime.UtcNow);
-            space_press_down_timestamp = dto.ToUnixTimeSeconds();
+            space_press_down_timestamp = dto.ToUnixTimeMilliseconds();
             if(together)
             {
                 space_original_FOV = CameraTogether.GetComponent<Camera>().fieldOfView;
@@ -124,14 +124,14 @@ public class CameraSwiftControl : MonoBehaviour
         {
             // Debug.Log(is_pressing_space);
             DateTimeOffset dto = new DateTimeOffset(DateTime.UtcNow);
-            long cur_time = dto.ToUnixTimeSeconds();
+            long cur_time = dto.ToUnixTimeMilliseconds();
             if(together)
             {
                 if(CameraTogether.GetComponent<Camera>().fieldOfView < space_target_FOV)
                 {
                     CameraTogether.GetComponent<Camera>().fieldOfView = space_original_FOV + (cur_time - space_press_down_timestamp) * space_increasing_speed;
                 }
-                // Debug.Log(CameraTogether.GetComponent<Camera>().fieldOfView);
+                Debug.Log(cur_time - space_press_down_timestamp);
             }
             else
             {
@@ -154,6 +154,7 @@ public class CameraSwiftControl : MonoBehaviour
                 CameraA.GetComponent<Camera>().fieldOfView = space_original_FOV;
                 CameraB.GetComponent<Camera>().fieldOfView = space_original_FOV;
             }
+        // Debug.Log(CameraTogether.GetComponent<Camera>().fieldOfView);
         }
     }
 }
