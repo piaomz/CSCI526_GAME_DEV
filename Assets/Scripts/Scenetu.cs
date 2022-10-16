@@ -10,7 +10,7 @@ public class Scenetu : MonoBehaviour
     {
         if (other.CompareTag("PlayerA") || other.CompareTag("PlayerB"))
         {
-            myAnimationController.SetBool("Booltrigger", true);
+            myAnimationController.SetBool("triggered", true);
             // myAnimationController.SetBool("triggered", false);
         }
     }
