@@ -21,16 +21,16 @@ public class ManualBoardControl : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown("`"))
+        if (Input.GetKeyDown("c"))
         {
             if(show)
             {
-                ManualBoard.text = "`:manual";
+                ManualBoard.text = "c:manual";
                 show = false;
             }
             else
             {
-                ManualBoard.text = "'          :show and hide manual\nwasd  :control player 1\n↑↓←→:control player 2\nv         :separate view or not\nb         :change view angle";
+                ManualBoard.text = "c          :show and hide manual\nwasd  :control player 1\n↑↓←→:control player 2\nv         :separate view or not\nb         :change view angle";
                 show = true;
             }
         }
