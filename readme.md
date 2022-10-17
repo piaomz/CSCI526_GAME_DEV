@@ -4,7 +4,7 @@
 
 PLAY ME!!!
 
-with drag: https://play.unity.com/mg/other/webgl-builds-258172
+https://play.unity.com/mg/other/webgl-builds-260472
 
 https://play.unity.com/mg/other/webgl-builds-255174
 
