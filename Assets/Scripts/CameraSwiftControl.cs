@@ -54,7 +54,7 @@ public class CameraSwiftControl : MonoBehaviour
         // separate
         if (Input.GetKeyDown("v"))
         {
-            Debug.Log("v");
+            // Debug.Log("v");
             if(together)
             {
                 CameraA.SetActive(true);
@@ -75,22 +75,6 @@ public class CameraSwiftControl : MonoBehaviour
         {
             if(is_original_angle)
             {
-                CameraA.transform.position = original_angle_position;
-                CameraA.transform.rotation = original_angle_rotation;
-                CameraA.GetComponent<Camera>().fieldOfView = original_FOV;
-                CameraA.GetComponent<CameraFollowingOneObj>().SetOffset(original_angle_position);
-                CameraB.transform.position = original_angle_position;
-                CameraB.transform.rotation = original_angle_rotation;
-                CameraB.GetComponent<Camera>().fieldOfView = original_FOV;
-                CameraB.GetComponent<CameraFollowingOneObj>().SetOffset(original_angle_position);
-                CameraTogether.transform.position = original_angle_position;
-                CameraTogether.transform.rotation = original_angle_rotation;
-                CameraTogether.GetComponent<Camera>().fieldOfView = original_FOV;
-                CameraTogether.GetComponent<CameraMainFollowing>().SetOffset(original_angle_position);
-                is_original_angle = false;
-            }
-            else
-            {
                 CameraA.transform.position = upper_angle_position;
                 CameraA.transform.rotation = upper_angle_rotation;
                 CameraA.GetComponent<Camera>().fieldOfView = upper_FOV;
@@ -103,6 +87,22 @@ public class CameraSwiftControl : MonoBehaviour
                 CameraTogether.transform.rotation = upper_angle_rotation;
                 CameraTogether.GetComponent<Camera>().fieldOfView = upper_FOV;
                 CameraTogether.GetComponent<CameraMainFollowing>().SetOffset(upper_angle_position);
+                is_original_angle = false;
+            }
+            else
+            {
+                CameraA.transform.position = original_angle_position;
+                CameraA.transform.rotation = original_angle_rotation;
+                CameraA.GetComponent<Camera>().fieldOfView = original_FOV;
+                CameraA.GetComponent<CameraFollowingOneObj>().SetOffset(original_angle_position);
+                CameraB.transform.position = original_angle_position;
+                CameraB.transform.rotation = original_angle_rotation;
+                CameraB.GetComponent<Camera>().fieldOfView = original_FOV;
+                CameraB.GetComponent<CameraFollowingOneObj>().SetOffset(original_angle_position);
+                CameraTogether.transform.position = original_angle_position;
+                CameraTogether.transform.rotation = original_angle_rotation;
+                CameraTogether.GetComponent<Camera>().fieldOfView = original_FOV;
+                CameraTogether.GetComponent<CameraMainFollowing>().SetOffset(original_angle_position);
                 is_original_angle = true;
             }
         }
@@ -134,7 +134,7 @@ public class CameraSwiftControl : MonoBehaviour
                 {
                     CameraTogether.GetComponent<Camera>().fieldOfView = space_original_FOV + (cur_time - space_press_down_timestamp) * space_increasing_speed;
                 }
-                Debug.Log(cur_time - space_press_down_timestamp);
+                // Debug.Log(cur_time - space_press_down_timestamp);
             }
             else
             {
