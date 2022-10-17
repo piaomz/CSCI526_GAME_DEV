@@ -10,7 +10,7 @@ public class CameraSwiftControl : MonoBehaviour
     public GameObject CameraA;
     public GameObject CameraB;
     public GameObject CameraTogether;
-    private bool together = true;
+    public bool together = true;
 
 
     private bool is_original_angle;
@@ -46,28 +46,31 @@ public class CameraSwiftControl : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        
+
     }
 
     void Update()
     {
+        // separate
         if (Input.GetKeyDown("v"))
         {
+            Debug.Log("v");
             if(together)
-            {
-                CameraA.SetActive(false);
-                CameraB.SetActive(false);
-                CameraTogether.SetActive(true);
-                together = false;
-            }
-            else
             {
                 CameraA.SetActive(true);
                 CameraB.SetActive(true);
                 CameraTogether.SetActive(false);
+                together = false;
+            }
+            else
+            {
+                CameraA.SetActive(false);
+                CameraB.SetActive(false);
+                CameraTogether.SetActive(true);
                 together = true;
             }
         }
+        // FOV
         if (Input.GetKeyDown("b"))
         {
             if(is_original_angle)
@@ -115,7 +118,7 @@ public class CameraSwiftControl : MonoBehaviour
             }
             else
             {
-                space_original_FOV = CameraA.GetComponent<Camera>().fieldOfView = upper_FOV;
+                space_original_FOV = CameraA.GetComponent<Camera>().fieldOfView;
             }
             space_target_FOV = space_original_FOV + space_increasing_range;
         }
