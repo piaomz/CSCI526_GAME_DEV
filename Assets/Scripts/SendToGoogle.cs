@@ -104,6 +104,7 @@ private IEnumerator Post(string elapse_time, string player, string reason)
     form.AddField("entry.1713748400", string.Join(",", check_point_times));
     // check point: gate, sorted(mapped) by distance from start, store finish check point time, check_point_times[i]: pass time at check point i, length == max(points from levels)
     form.AddField("entry.410156034", string.Join(",", coin_get_times));// coin time
+    form.AddField("entry.1401706524", GlobalVariables.inertia.ToString());// GlobalVariables.inertia
 
 
     using (UnityWebRequest www = UnityWebRequest.Post(URL, form))
