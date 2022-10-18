@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\OpenDoorA.cs" />
     <Compile Include="Assets\AurynSky\Forest Pack\Scripts\MaterialMover.cs" />
+    <Compile Include="Assets\Scripts\Scenetu.cs" />
     <Compile Include="Assets\Scripts\Scene3R2Play.cs" />
     <Compile Include="Assets\Scripts\Notifier.cs" />
     <Compile Include="Assets\Scripts\Coin.cs" />
@@ -80,10 +81,9 @@
     <Compile Include="Assets\Scripts\PlayerB.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\NextLevelButton.cs" />
+    <Compile Include="Assets\trigger.cs" />
     <Compile Include="Assets\AurynSky\Forest Pack\Scripts\ChestDemo.cs" />
     <Compile Include="Assets\Scripts\ReturnButton.cs" />
-    <Compile Include="Assets\trigger.cs" />
-    <Compile Include="Assets\Scripts\Scenetu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
