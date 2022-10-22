@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
+    public SendToGoogle sending;
     public int flagA = 0;
     public int flagB = 0;
     public int isOpen=0;
@@ -21,6 +22,7 @@ public class Door : MonoBehaviour
     public void Lift()
     {
         if (flagA ==1 && flagB==1 && isOpen==0) {
+            sending.UpdateCheckPoint(gameObject.name);
             isOpen=1;
             transform.position = new Vector3(transform.position.x,
                 transform.position.y + (float)1.5, transform.position.z);

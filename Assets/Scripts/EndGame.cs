@@ -8,6 +8,7 @@ public class EndGame : MonoBehaviour
     public GameObject theEndText;
     private int flagA = 0;
     private int flagB = 0;
+    public SendToGoogle sending;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,7 @@ public class EndGame : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
+        // sending.PrintStatus();
         if(other.tag == "PlayerA")
         {
             this.flagA = 1;
@@ -37,6 +39,7 @@ public class EndGame : MonoBehaviour
             if(theEndText){
                 theEndText.SetActive(true);
             }
+            sending.Send();
             Time.timeScale = 0;
 
         }

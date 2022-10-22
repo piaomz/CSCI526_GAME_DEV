@@ -13,6 +13,9 @@ public class PlayerA : MonoBehaviour
     public GameObject gameOverText;
     public int deadLiney = -3;
     public SendToGoogle sending;
+    private float drag= 0.85f;
+    private float maxV=25;
+    private bool inertia;
     //private GameObject winText;
     //private Rigidbody door;
     // Start is called before the first frame update
@@ -20,13 +23,24 @@ public class PlayerA : MonoBehaviour
     {
         //Debug.log("game start");
         rd = GetComponent<Rigidbody>();
+        inertia = GlobalVariables.inertia;
     }
     // Update is called once per frame
     void FixedUpdate()
     {
         float h = Input.GetAxis("Horizontal2");//-1 1
         float v = Input.GetAxis("Vertical2");//ws
-        rd.AddForce(new Vector3(600*h * Time.fixedDeltaTime, 0, 600*v * Time.fixedDeltaTime));
+        if(inertia){
+            rd.AddForce(new Vector3(600*h * Time.fixedDeltaTime, 0, 600*v * Time.fixedDeltaTime));
+        }else{
+            if(gameObject.GetComponent<Rigidbody>().velocity.magnitude<maxV){
+                rd.AddForce(new Vector3(3400 * h * Time.fixedDeltaTime, 0, 3400 * v * Time.fixedDeltaTime));
+            }
+            gameObject.GetComponent<Rigidbody>().velocity=new Vector3(gameObject.GetComponent<Rigidbody>().velocity.x*drag,gameObject.GetComponent<Rigidbody>().velocity.y,gameObject.GetComponent<Rigidbody>().velocity.z*drag);
+            if(h<=0.2&& h>=-0.2 && v <= 0.2&&v>=-0.2){ 
+            }
+        }
+
         if (transform.position.y < deadLiney)
         {
             ExecuteDeath("Fall");
@@ -45,9 +59,12 @@ public class PlayerA : MonoBehaviour
         //Debug.Log("OnTriggerEnter" + other.tag);
         if (other.tag == "CoinA")
         {
+            // Debug.Log(other.gameObject.name);
+            sending.UpdateCoinAchieve(other.gameObject.name);
             Destroy(other.gameObject);
             score++;
             scoreText.text = "A Score : " + score;
+            
             //if (score == 3)
             //{
             //    winText.SetActive(true);
@@ -77,9 +94,14 @@ public class PlayerA : MonoBehaviour
     }
 
     void ExecuteDeath(string reason){
-        sending.Send(0, reason);
+        sending.SetDeath();
+        sending.Send(1, reason);
         score = 0;
         gameOverText.SetActive(true);
+        gameObject.transform.localEulerAngles = new Vector3(0, 0, 0);
+        gameObject.GetComponent<Rigidbody>().angularVelocity = new Vector3(0, 0, 0);
+        gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
         Time.timeScale = 0;
+
     }
 }

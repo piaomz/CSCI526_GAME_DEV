@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Camera : MonoBehaviour
+public class CameraMainFollowing : MonoBehaviour
 {
     public Transform playerTransform;
     public Transform playerTransform2;
@@ -14,6 +14,11 @@ public class Camera : MonoBehaviour
         //pos = (playerTransform.position + playerTransform2.position) / 2;
         offset = transform.position - (playerTransform.position + playerTransform2.position) / 2;
 
+    }
+
+    public void SetOffset(Vector3 position)
+    {
+        offset = position;
     }
 
     // Update is called once per frame
