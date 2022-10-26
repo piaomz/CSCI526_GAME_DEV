@@ -95,7 +95,8 @@ public class PlayerA : MonoBehaviour
 
     void ExecuteDeath(string reason){
         sending.SetDeath();
-        sending.Send(1, reason);
+        sending.Send(0, reason);
+        // fix problem ,correct death datapoint from [1939
         score = 0;
         gameOverText.SetActive(true);
         gameObject.transform.localEulerAngles = new Vector3(0, 0, 0);
