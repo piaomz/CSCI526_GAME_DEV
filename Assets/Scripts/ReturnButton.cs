@@ -11,6 +11,7 @@ public class ReturnButton : MonoBehaviour
     public GameObject gameOverText;
     public Text scoreTextA;
     public Text scoreTextB;
+    public Text deathReasonText;
     private Vector3 posA;
     private Vector3 posB;
     // Start is called before the first frame update
@@ -43,7 +44,7 @@ public class ReturnButton : MonoBehaviour
         //playerB.GetComponent<Rigidbody>().velocity=new Vector3(0,0,0);
         //PlayerB.score=0;
         //scoreTextB.text = "B Score : 0" ;
-
+        deathReasonText.gameObject.SetActive(false);
         gameOverText.SetActive(false);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
