@@ -16,6 +16,7 @@ public class PlayerA : MonoBehaviour
     private float drag= 0.85f;
     private float maxV=25;
     private bool inertia;
+    public Text deathReasonText;
     //private GameObject winText;
     //private Rigidbody door;
     // Start is called before the first frame update
@@ -95,8 +96,11 @@ public class PlayerA : MonoBehaviour
 
     void ExecuteDeath(string reason){
         sending.SetDeath();
-        sending.Send(1, reason);
+        sending.Send(0, reason);
+        // fix problem ,correct death datapoint from [1939
         score = 0;
+        deathReasonText.gameObject.SetActive(true);
+        deathReasonText.text = "Death Reason :" + reason;
         gameOverText.SetActive(true);
         gameObject.transform.localEulerAngles = new Vector3(0, 0, 0);
         gameObject.GetComponent<Rigidbody>().angularVelocity = new Vector3(0, 0, 0);
