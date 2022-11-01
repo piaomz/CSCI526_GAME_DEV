@@ -12,22 +12,22 @@ public class WorldSwitch : MonoBehaviour
     void Start()
     {
         if(GlobalVariables.inertia){
-            text.text = "Inertia\nWorld\n(hard)";
+            text.text = "Heavy";
             text.color = Color.red;
         }else{
-            text.text = "Normal\nWorld\n(easy)";
-            text.color = Color.white;
+            text.text = "Light";
+            text.color = Color.green;
         }
     }
 
     public void WorldSwift(){
         if(GlobalVariables.inertia){
             GlobalVariables.inertia = false;
-            text.text = "Normal\nWorld\n(easy)";
-            text.color = Color.white;
+            text.text = "Light";
+            text.color = Color.green;
         }else{
             GlobalVariables.inertia = true;
-            text.text = "Inertia\nWorld\n(hard)";
+            text.text = "Heavy";
             text.color = Color.red;
         }
         // Debug.Log(GlobalVariables.inertia);
