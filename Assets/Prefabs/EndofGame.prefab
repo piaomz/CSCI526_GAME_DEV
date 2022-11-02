@@ -27,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4107572971947562169}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.01, z: 130}
   m_LocalScale: {x: 20, y: 10, z: 1}
   m_ConstrainProportionsScale: 0
@@ -112,3 +112,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contratulationText: {fileID: 0}
+  theEndText: {fileID: 0}
+  sendingRanking: {fileID: 0}
+  PlayerA: {fileID: 0}
+  PlayerB: {fileID: 0}
+  sendingGForm: {fileID: 0}
+  UImanager: {fileID: 0}

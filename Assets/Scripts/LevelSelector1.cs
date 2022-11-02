@@ -13,6 +13,7 @@ public class LevelSelector1 : MonoBehaviour
     }
 
     public void OpenScene() {
+        Time.timeScale = 1;
         SceneManager.LoadScene("Level" + level.ToString());
     }
 }
