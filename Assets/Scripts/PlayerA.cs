@@ -42,7 +42,7 @@ public class PlayerA : MonoBehaviour
             if(h<=0.2&& h>=-0.2 && v <= 0.2&&v>=-0.2){ 
             }
         }
-
+        
         if (transform.position.y < deadLiney)
         {
             ExecuteDeath("Fall");

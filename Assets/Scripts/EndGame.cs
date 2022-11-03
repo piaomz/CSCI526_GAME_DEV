@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class EndGame : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class EndGame : MonoBehaviour
     private int flagA = 0;
     private int flagB = 0;
     public SendToGoogle sendingGForm;
+    // public TextMeshProUGUI ToLeaderboardButtonText;
 
     public ScoreUIManager UImanager;
 
@@ -54,14 +56,22 @@ public class EndGame : MonoBehaviour
             }
             // format score:      product                           time
             GlobalVariables.currectPlayerFormattedScore = PlayerA.score * PlayerB.score * 1000000 + reversedTime;
-            sendingRanking.SubmitScore(GlobalVariables.currectPlayerFormattedScore);
-            System.Threading.Thread.Sleep(200);
-            sendingRanking.RequestScores();
 
-            sendingRanking.RequestCurrentPlayerRankAndSet(GlobalVariables.currectPlayerFormattedScore);
-            GlobalVariables.currectPlayerScore.player = GlobalVariables.PlayerName;
-            GlobalVariables.currectPlayerScore.product = PlayerA.score * PlayerB.score;
-            GlobalVariables.currectPlayerScore.time = GlobalVariables.elapseTime;
+            // not this condition
+            // (not ) this game is single thread, so no locker or sequence needed, always upload then get all then get single
+            sendingRanking.SubmitScore(GlobalVariables.currectPlayerFormattedScore);
+            // all  below  are put in SubmitScore function now.
+            // System.Threading.Thread.Sleep(200);
+            // sendingRanking.RequestScores();
+
+            // sendingRanking.RequestCurrentPlayerRankAndSet();
+            // GlobalVariables.currectPlayerScore.player = GlobalVariables.PlayerName;
+            // GlobalVariables.currectPlayerScore.product = PlayerA.score * PlayerB.score;
+            // GlobalVariables.currectPlayerScore.time = GlobalVariables.elapseTime;
+
+            // GlobalVariables.allLeaderboardDataDownloaded = true;
+            // ToLeaderboardButtonText.text = "Go to leaderboard";
+
             Time.timeScale = 0;
 
         }

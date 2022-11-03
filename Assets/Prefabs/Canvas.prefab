@@ -314,7 +314,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2941739521858425327}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -391,7 +391,7 @@ GameObject:
   - component: {fileID: 2941739520542732485}
   - component: {fileID: 2941739520542732506}
   m_Layer: 5
-  m_Name: NextLevel
+  m_Name: ToLeaderboard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -499,7 +499,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2941739520542732485}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2941739520798177478}
+        m_TargetAssemblyTypeName: ToLeaderboard, Assembly-CSharp
+        m_MethodName: goToLeaderboard
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2941739520544084485
 GameObject:
   m_ObjectHideFlags: 0
@@ -631,7 +643,7 @@ RectTransform:
   m_Children:
   - {fileID: 2941739522180803722}
   m_Father: {fileID: 2941739521858425327}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -793,7 +805,7 @@ MonoBehaviour:
   congratulationText: {fileID: 2941739522120085983}
   leaderboardCanvas: {fileID: 0}
   UImanager: {fileID: 0}
-  nextLevelName: Level0.1
+  nextLevelName: Level1
 --- !u!1 &2941739520950842087
 GameObject:
   m_ObjectHideFlags: 0
@@ -902,7 +914,7 @@ GameObject:
   - component: {fileID: 2941739521147866184}
   - component: {fileID: 2941739521147866185}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: ToLeaderboardButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -956,7 +968,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Next Level
+  m_text: leaderboard loading...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1553,7 +1565,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2941739521548098804
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1680,8 +1692,8 @@ RectTransform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4151816911417870257}
   - {fileID: 2941739520698453414}
+  - {fileID: 4151816911417870257}
   m_Father: {fileID: 2941739522543255779}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

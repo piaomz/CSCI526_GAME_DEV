@@ -18,8 +18,8 @@ public class ToLeaderboard : MonoBehaviour
 
     
     public void goToLeaderboard(){
-        Debug.Log("nextlevel");
-        Time.timeScale = 1;
+        // Debug.Log("nextlevel");
+        // Time.timeScale = 1;
         //layerA.transform.position=posA;
         //playerA.transform.localEulerAngles = new Vector3 (0, 0, 0);
         //playerA.GetComponent<Rigidbody>().angularVelocity=new Vector3(0,0,0);
@@ -34,9 +34,13 @@ public class ToLeaderboard : MonoBehaviour
         //PlayerB.score=0;
         //scoreTextB.text = "B Score : 0" ;
 
-        congratulationText.SetActive(false);
-        leaderboardCanvas.SetActive(true);
-        UImanager.populateDataToTable();
+        if(GlobalVariables.allLeaderboardDataDownloaded){
+            congratulationText.SetActive(false);
+            leaderboardCanvas.SetActive(true);
+            UImanager.populateDataToTable();
+            GlobalVariables.allLeaderboardDataDownloaded = false;
+        }
+
 
     }
 }
