@@ -2311,6 +2311,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: sumPauseButton
       objectReference: {fileID: 0}
+    - target: {fileID: 11477260, guid: df93da55c6ab79e40b5edf0196e909b4, type: 3}
+      propertyPath: PausedText
+      value: 
+      objectReference: {fileID: 8176740222154139682}
+    - target: {fileID: 11477260, guid: df93da55c6ab79e40b5edf0196e909b4, type: 3}
+      propertyPath: CongradText
+      value: 
+      objectReference: {fileID: 2941739522120085983}
+    - target: {fileID: 11477260, guid: df93da55c6ab79e40b5edf0196e909b4, type: 3}
+      propertyPath: GameOverText
+      value: 
+      objectReference: {fileID: 2941739521858425324}
     - target: {fileID: 22447610, guid: df93da55c6ab79e40b5edf0196e909b4, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2448,6 +2460,11 @@ MonoBehaviour:
 --- !u!224 &757062377095256426 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 22447610, guid: df93da55c6ab79e40b5edf0196e909b4, type: 3}
+  m_PrefabInstance: {fileID: 757062377081789584}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8176740222154139682 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8932957826077209778, guid: df93da55c6ab79e40b5edf0196e909b4, type: 3}
   m_PrefabInstance: {fileID: 757062377081789584}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1477726199764296514
