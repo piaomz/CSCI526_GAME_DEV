@@ -11,10 +11,10 @@ public class ToLeaderboard : MonoBehaviour
     public ScoreUIManager UImanager;
     public string nextLevelName;
     // Start is called before the first frame update
-    // void Start()
-    // {
-    //     Button.GetComponent<Button>().onClick.AddListener(NextLevel);
-    // }
+    //void Start()
+    //{
+    //    Button.GetComponent<Button>().onClick.AddListener(goToLeaderboard);
+    //}
 
     
     public void goToLeaderboard(){

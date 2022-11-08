@@ -44,8 +44,8 @@ public class ReturnButton : MonoBehaviour
         //playerB.GetComponent<Rigidbody>().velocity=new Vector3(0,0,0);
         //PlayerB.score=0;
         //scoreTextB.text = "B Score : 0" ;
-        deathReasonText.gameObject.SetActive(false);
-        gameOverText.SetActive(false);
+        //deathReasonText.gameObject.SetActive(false);
+        //gameOverText.SetActive(false);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
