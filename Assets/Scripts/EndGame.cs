@@ -1,14 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class EndGame : MonoBehaviour
 {
     public GameObject contratulationText;
     public GameObject theEndText;
+    public SendToLooklocker sendingRanking;
+    public PlayerA PlayerA;
+    public PlayerB PlayerB;
     private int flagA = 0;
     private int flagB = 0;
-    public SendToGoogle sending;
+    public SendToGoogle sendingGForm;
+    // public TextMeshProUGUI ToLeaderboardButtonText;
+
+    public ScoreUIManager UImanager;
 
     // Start is called before the first frame update
     void Start()
@@ -39,7 +46,32 @@ public class EndGame : MonoBehaviour
             if(theEndText){
                 theEndText.SetActive(true);
             }
-            sending.Send();
+            // haven't separate a time manager out of "SendToGoogle"
+            // so must update time in sending Gform first then leaderboard
+            
+            sendingGForm.Send();
+            int reversedTime = 100000 - GlobalVariables.elapseTime;
+            if (reversedTime < 0){
+                reversedTime = 0;
+            }
+            // format score:      product                           time
+            GlobalVariables.currectPlayerFormattedScore = PlayerA.score * PlayerB.score * 1000000 + reversedTime;
+
+            // not this condition
+            // (not ) this game is single thread, so no locker or sequence needed, always upload then get all then get single
+            sendingRanking.SubmitScore(GlobalVariables.currectPlayerFormattedScore);
+            // all  below  are put in SubmitScore function now.
+            // System.Threading.Thread.Sleep(200);
+            // sendingRanking.RequestScores();
+
+            // sendingRanking.RequestCurrentPlayerRankAndSet();
+            // GlobalVariables.currectPlayerScore.player = GlobalVariables.PlayerName;
+            // GlobalVariables.currectPlayerScore.product = PlayerA.score * PlayerB.score;
+            // GlobalVariables.currectPlayerScore.time = GlobalVariables.elapseTime;
+
+            // GlobalVariables.allLeaderboardDataDownloaded = true;
+            // ToLeaderboardButtonText.text = "Go to leaderboard";
+
             Time.timeScale = 0;
 
         }

@@ -12,11 +12,12 @@ public class PlayerA : MonoBehaviour
     public Text scoreText;
     public GameObject gameOverText;
     public int deadLiney = -3;
-    public SendToGoogle sending;
+    public SendToGoogle sendingGForm;
     private float drag= 0.85f;
     private float maxV=25;
     private bool inertia;
     public Text deathReasonText;
+    
     //private GameObject winText;
     //private Rigidbody door;
     // Start is called before the first frame update
@@ -41,7 +42,7 @@ public class PlayerA : MonoBehaviour
             if(h<=0.2&& h>=-0.2 && v <= 0.2&&v>=-0.2){ 
             }
         }
-
+        
         if (transform.position.y < deadLiney)
         {
             ExecuteDeath("Fall");
@@ -61,7 +62,7 @@ public class PlayerA : MonoBehaviour
         if (other.tag == "CoinA")
         {
             // Debug.Log(other.gameObject.name);
-            sending.UpdateCoinAchieve(other.gameObject.name);
+            sendingGForm.UpdateCoinAchieve(other.gameObject.name);
             Destroy(other.gameObject);
             score++;
             scoreText.text = "A Score : " + score;
@@ -95,8 +96,8 @@ public class PlayerA : MonoBehaviour
     }
 
     void ExecuteDeath(string reason){
-        sending.SetDeath();
-        sending.Send(0, reason);
+        sendingGForm.SetDeath();
+        sendingGForm.Send(0, reason);
         // fix problem ,correct death datapoint from [1939
         score = 0;
         deathReasonText.gameObject.SetActive(true);

@@ -9,6 +9,8 @@ public class SumPause : MonoBehaviour {
     public delegate void PauseAction(bool paused);
     public static event PauseAction pauseEvent;
     public GameObject PausedText;
+    public GameObject GameOverText;
+    public GameObject CongradText;
 
     // Variables set via inspector
     [SerializeField]
@@ -61,9 +63,13 @@ public class SumPause : MonoBehaviour {
     }
 
     void Update() {
+        if(GameOverText.activeSelf || CongradText.activeSelf){
+            gameObject.SetActive(false);
+        }
         // Listen for escape key and pause if needed
-        if (detectEscapeKey && Input.GetKeyDown(KeyCode.Escape))
+        if (detectEscapeKey && Input.GetKeyDown(KeyCode.Escape)){
             TogglePause();
+        }
     }
 
     /// <summary>

@@ -27,6 +27,7 @@ public class SendToGoogle : MonoBehaviour
 
     private void Awake()
 {
+    // just in case when testing
     // Assign sessionID to identify playtests
     if(GlobalVariables._session_ID == 0)
     {
@@ -41,7 +42,6 @@ public class SendToGoogle : MonoBehaviour
     // DontDestroyOnLoad(gameObject);
     // Send();
 }
-
 
 public void Send()
 {
@@ -59,6 +59,7 @@ public void Send(int player, string reason)
     DateTimeOffset dto = new DateTimeOffset(DateTime.UtcNow);
     long endTime = dto.ToUnixTimeSeconds();
     long _elapse_time = endTime-startTime;
+    GlobalVariables.elapseTime = (int)_elapse_time;
 
     StartCoroutine(Post(_elapse_time.ToString(), player.ToString(), reason));
 }
@@ -117,7 +118,7 @@ private IEnumerator Post(string elapse_time, string player, string reason)
         }
         else
         {
-            Debug.Log("Form upload complete!");
+            Debug.Log("Analytical data upload complete!");
         }
     }
 }
@@ -213,12 +214,8 @@ void initializeHashmaps(string cur_level){
         check_point_times = new long[10];
         coin_get_times = new long[12];
 
-        Debug.Log("start" + cur_level);
+        // Debug.Log("start" + cur_level);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
