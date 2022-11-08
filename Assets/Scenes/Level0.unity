@@ -1480,6 +1480,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1665866050}
     - target: {fileID: 4107572971947562168, guid: d882cc938123c4894921da4360745279, type: 3}
+      propertyPath: TimeBoard
+      value: 
+      objectReference: {fileID: 1605854860}
+    - target: {fileID: 4107572971947562168, guid: d882cc938123c4894921da4360745279, type: 3}
       propertyPath: UImanager
       value: 
       objectReference: {fileID: 999666758}
@@ -6247,6 +6251,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4175797499355468, guid: 45fe3ec28eac2064d985117cf812ef9d, type: 3}
   m_PrefabInstance: {fileID: 1596102444}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1605854860 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 269577646761683178, guid: bc7789da42e1943a088a8af23c7b92fc, type: 3}
+  m_PrefabInstance: {fileID: 2941739520782499541}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1623630217 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1362255755749402, guid: 1b5d1a6deebd81e4bba2448d18378844, type: 3}

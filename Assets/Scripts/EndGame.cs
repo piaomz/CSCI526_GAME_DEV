@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System;
+using UnityEngine.UI;
 
 public class EndGame : MonoBehaviour
 {
@@ -17,10 +19,13 @@ public class EndGame : MonoBehaviour
 
     public ScoreUIManager UImanager;
 
+    public Text TimeBoard;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        DateTimeOffset dto = new DateTimeOffset(DateTime.UtcNow);
+        lastTime = dto.ToUnixTimeMilliseconds();
     }
 
     // Update is called once per frame
@@ -29,6 +34,24 @@ public class EndGame : MonoBehaviour
         
 
     }
+
+    long ingameTimeElapse = 0;
+    long lastTime = 0;
+    int interval = 0;
+
+    private void FixedUpdate() {
+        if (Time.timeScale > 0 && interval == 0){
+            DateTimeOffset dto = new DateTimeOffset(DateTime.UtcNow);
+            long curTime = dto.ToUnixTimeMilliseconds();
+            ingameTimeElapse += (long)(Time.timeScale * (curTime - lastTime));
+            lastTime = curTime;
+            float floatingameTimeElapse = (float)ingameTimeElapse / 1000;
+            TimeBoard.text = String.Format("Time: {0:C2}s",floatingameTimeElapse.ToString());
+            // interval = 10;
+        }
+        // interval -= 1;
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         // sending.PrintStatus();
