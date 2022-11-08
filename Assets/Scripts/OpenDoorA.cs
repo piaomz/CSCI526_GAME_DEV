@@ -31,7 +31,7 @@ public class OpenDoorA : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag == "PlayerA")
+        if (other.tag == "PlayerA" && door.isOpen == 0)
         {
             flag.SetActive(true);
             door.flagA = 0;
