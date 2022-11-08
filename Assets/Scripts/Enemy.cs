@@ -19,7 +19,7 @@ public class Enemy : MonoBehaviour
         //AutoAnimation
         Vector3 towardPos = transform.position - lastPos;
         float speed = towardPos.magnitude / Time.deltaTime;
-        Debug.Log(speed);
+        //Debug.Log(speed);
         if(speed>0.01){
             anim.SetBool("Walk Forward", true);
         }else{
