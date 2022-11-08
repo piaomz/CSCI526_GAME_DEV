@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44300476, g: 0.49219394, b: 0.5719215, a: 1}
+  m_IndirectSpecularColor: {r: 0.44300556, g: 0.49219465, b: 0.5719236, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8732,6 +8732,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2144188665 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8328019015145620858, guid: bc7789da42e1943a088a8af23c7b92fc, type: 3}
+  m_PrefabInstance: {fileID: 2144188660}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2146492721
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8833,6 +8838,10 @@ PrefabInstance:
       propertyPath: ManualBoard
       value: 
       objectReference: {fileID: 2013116481}
+    - target: {fileID: 967992088351800892, guid: 69da12980cf61244285ff2ec3192f675, type: 3}
+      propertyPath: ManualBoardBKG
+      value: 
+      objectReference: {fileID: 2144188665}
     - target: {fileID: 967992088351800893, guid: 69da12980cf61244285ff2ec3192f675, type: 3}
       propertyPath: CameraA
       value: 
