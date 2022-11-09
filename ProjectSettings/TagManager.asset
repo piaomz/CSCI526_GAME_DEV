@@ -15,6 +15,7 @@ TagManager:
   - RoadB
   - endofgame
   - Notifier
+  - Chest
   layers:
   - Default
   - TransparentFX
