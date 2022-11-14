@@ -17,6 +17,7 @@ TagManager:
   - Notifier
   - Chest
   - fallfloor
+  - MovingBridge
   layers:
   - Default
   - TransparentFX
