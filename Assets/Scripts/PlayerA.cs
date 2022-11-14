@@ -92,7 +92,15 @@ public class PlayerA : MonoBehaviour
             // //gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
             // Time.timeScale = 0;
         }
-    
+        
+        
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "fallfloor")
+        {
+            Destroy(collision.gameObject,0.5f);
+        }
     }
 
     void ExecuteDeath(string reason){

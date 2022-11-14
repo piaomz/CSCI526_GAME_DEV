@@ -16,6 +16,7 @@ TagManager:
   - endofgame
   - Notifier
   - Chest
+  - fallfloor
   layers:
   - Default
   - TransparentFX
