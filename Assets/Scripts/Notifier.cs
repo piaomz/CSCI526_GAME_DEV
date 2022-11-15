@@ -24,8 +24,6 @@ public class Notifier : MonoBehaviour
     void Start()
     {
         visible = false;
-        textA.gameObject.SetActive(false);
-        textB.gameObject.SetActive(false);
         textBarrier.gameObject.SetActive(false);
         textCoin.gameObject.SetActive(false);
         textColorZone.gameObject.SetActive(false);
