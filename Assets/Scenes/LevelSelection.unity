@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44300476, g: 0.49219394, b: 0.5719215, a: 1}
+  m_IndirectSpecularColor: {r: 0.44300556, g: 0.49219465, b: 0.5719236, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -523,7 +523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f01129526c11849c1810f11bb96b8970, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 
+  level: 0
 --- !u!114 &213755066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1809,7 +1809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f01129526c11849c1810f11bb96b8970, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 
+  level: 2
 --- !u!114 &874043318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2944,7 +2944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f01129526c11849c1810f11bb96b8970, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 
+  level: 1
 --- !u!114 &1273935693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3792,7 +3792,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f01129526c11849c1810f11bb96b8970, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 
+  level: 3
 --- !u!114 &1610004322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4450,7 +4450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f01129526c11849c1810f11bb96b8970, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 
+  level: 0.1
 --- !u!114 &1974447108
 MonoBehaviour:
   m_ObjectHideFlags: 0
