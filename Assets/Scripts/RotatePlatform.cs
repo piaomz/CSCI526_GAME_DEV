@@ -22,19 +22,14 @@ public class RotatePlatform : MonoBehaviour
         Rotate();
     }
 
-    // dir is right | left
     public void Rotate()
     {
         if (left || right)
         {
-            Debug.Log("===========Rotating===========" + Math.Abs(degZ));
+            // if pressed at the same time -> rotate left
             int dirParam = left ? 1 : -1;
-            // stop if deg >= 60
-            // if (Math.Abs(degZ) < 60f)
-            // {
                 degZ += rotationalSpeed * dirParam;
                 transform.localRotation = Quaternion.Euler(0.0f, 0.0f, degZ);
-            // }
         }
     }
 }
