@@ -5,15 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class LevelSelector1 : MonoBehaviour
 {
-    public int level;
+    public string level;
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     public void OpenScene() {
         Time.timeScale = 1;
-        SceneManager.LoadScene("Level" + level.ToString());
+        SceneManager.LoadScene("Level" + level);
     }
 }

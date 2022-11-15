@@ -24,8 +24,8 @@ public class EndGame : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DateTimeOffset dto = new DateTimeOffset(DateTime.UtcNow);
-        lastTime = dto.ToUnixTimeMilliseconds();
+        // DateTimeOffset dto = new DateTimeOffset(DateTime.UtcNow);
+        // lastTime = dto.ToUnixTimeMilliseconds();
     }
 
     // Update is called once per frame
@@ -35,22 +35,22 @@ public class EndGame : MonoBehaviour
 
     }
 
-    long ingameTimeElapse = 0;
-    long lastTime = 0;
-    int interval = 0;
+    // long ingameTimeElapse = 0;
+    // long lastTime = 0;
+    // int interval = 0;
 
-    private void FixedUpdate() {
-        if (Time.timeScale > 0 && interval == 0){
-            DateTimeOffset dto = new DateTimeOffset(DateTime.UtcNow);
-            long curTime = dto.ToUnixTimeMilliseconds();
-            ingameTimeElapse += (long)(Time.timeScale * (curTime - lastTime));
-            lastTime = curTime;
-            float floatingameTimeElapse = (float)ingameTimeElapse / 1000;
-            TimeBoard.text = String.Format("Time: {0:C2}s",floatingameTimeElapse.ToString());
-            // interval = 10;
-        }
-        // interval -= 1;
-    }
+    // private void FixedUpdate() {
+    //     if (Time.timeScale > 0 && interval == 0){
+    //         DateTimeOffset dto = new DateTimeOffset(DateTime.UtcNow);
+    //         long curTime = dto.ToUnixTimeMilliseconds();
+    //         ingameTimeElapse += (long)(Time.timeScale * (curTime - lastTime));
+    //         lastTime = curTime;
+    //         float floatingameTimeElapse = (float)ingameTimeElapse / 1000;
+    //         TimeBoard.text = String.Format("Time: {0:C2}s",floatingameTimeElapse.ToString());
+    //         // interval = 10;
+    //     }
+    //     // interval -= 1;
+    // }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -73,7 +73,7 @@ public class EndGame : MonoBehaviour
             // so must update time in sending Gform first then leaderboard
             
             sendingGForm.Send();
-            int reversedTime = 100000 - GlobalVariables.elapseTime;
+            int reversedTime = 100000 - (int)GlobalVariables.elapseTime;
             if (reversedTime < 0){
                 reversedTime = 0;
             }
