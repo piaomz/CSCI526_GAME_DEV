@@ -9,6 +9,7 @@ public class SendToLooklocker : MonoBehaviour
 {
 
     public TextMeshProUGUI ToLeaderboardButtonText;
+    string cur_level;
 
     int currentLeaderboardID;
     // Start is called before the first frame update
@@ -21,27 +22,53 @@ public class SendToLooklocker : MonoBehaviour
                 Debug.Log("Leaderboard Session Failed");
             }
         });
-        string cur_level = SceneManager.GetActiveScene().name;
+        cur_level = SceneManager.GetActiveScene().name;
         currentLeaderboardID = getLeaderboardID(cur_level);
     }
 
     private int getLeaderboardID(string cur_level){
-    switch(cur_level) 
-    {
-    case "Level0.1":
-        return 8367;
-    case "Level0":
-        return 8364;
-    case "Level1":
-        return 8368;
-    case "Level2":
-        return 8369;
-    case "Level3":
-        return 8370;
-    default:
-        Debug.Log("out of scene name");
-        return -1;
-    }
+        if(GlobalVariables.inertia){
+            switch(cur_level) 
+            {
+            case "Level0.1":
+                return 8766;
+            case "Level0":
+                return 8765;
+            case "Level1":
+                return 8767;
+            case "Level2":
+                return 8768;
+            case "Level3":
+                return 8769;
+            case "Levelmovingfloor":
+                return 8869;
+            default:
+                Debug.Log("out of scene name");
+                return -1;
+            }
+        }else{
+            // no inertia here
+            switch(cur_level) 
+            {
+            case "Level0.1":
+                return 8367;
+            case "Level0":
+                return 8364;
+            case "Level1":
+                return 8368;
+            case "Level2":
+                return 8369;
+            case "Level3":
+                return 8370;
+            case "Levelmovingfloor":
+                return 8868;
+            default:
+                Debug.Log("out of scene name");
+                return -1;
+            }
+        }
+
+
 }
 
     public void SubmitScore(int score){
@@ -91,7 +118,7 @@ public class SendToLooklocker : MonoBehaviour
                     GlobalVariables.currectPlayerScore.player = GlobalVariables.PlayerName;
                     // GlobalVariables.currectPlayerScore.product = PlayerA.score * PlayerB.score;
                     GlobalVariables.currectPlayerScore.product = GlobalVariables.currectPlayerFormattedScore/ 1000000;
-                    GlobalVariables.currectPlayerScore.time = GlobalVariables.elapseTime;
+                    GlobalVariables.currectPlayerScore.time = (int)GlobalVariables.elapseTime;
 
                     GlobalVariables.allLeaderboardDataDownloaded = true;
                     Debug.Log("Single Data get");
