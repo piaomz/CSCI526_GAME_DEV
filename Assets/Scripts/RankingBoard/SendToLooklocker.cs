@@ -42,6 +42,8 @@ public class SendToLooklocker : MonoBehaviour
                 return 8769;
             case "Levelmovingfloor":
                 return 8869;
+            case "Levelfallfloor":
+                return 8890;
             default:
                 Debug.Log("out of scene name");
                 return -1;
@@ -62,6 +64,8 @@ public class SendToLooklocker : MonoBehaviour
                 return 8370;
             case "Levelmovingfloor":
                 return 8868;
+            case "Levelfallfloor":
+                return 8891;
             default:
                 Debug.Log("out of scene name");
                 return -1;
