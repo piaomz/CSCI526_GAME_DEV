@@ -5,14 +5,22 @@ using UnityEngine;
 public class TutorialPopupController : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
-    {
-        
+    public bool showed;
+    public GameObject TutorialCanvas;
+    void Start(){
+        showed = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    void OnTriggerEnter(Collider other) {
+        if(!showed){
+            TutorialCanvas.SetActive(true);
+            showed = true;// show once
+            Time.timeScale = 0;
+        }
+    }
+
+    public void closeCanvas(){
+        TutorialCanvas.SetActive(false);
+        Time.timeScale = 1;
     }
 }
