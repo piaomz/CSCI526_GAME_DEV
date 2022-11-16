@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Bridge : MonoBehaviour
 {
-    public bool isMove=true;
+    public bool isMoveA=true;
+    public bool isMoveB=true;
     public float speed =0.1f;
     public int direction = 1;
     public float startX=-8.5f;
@@ -36,7 +37,7 @@ public class Bridge : MonoBehaviour
             else if(transform.position.x>endX){
                 transform.position= transform.position+ (new Vector3(0,speed*-0.5f,0));
             }
-            else if(isMove==true){
+            else if(isMoveA==true&&isMoveB==true){
                 transform.position=transform.position + (new Vector3(speed,0,0));
         }
         }else{
@@ -49,7 +50,7 @@ public class Bridge : MonoBehaviour
             else if(transform.position.x<endX){
                 transform.position= transform.position+ (new Vector3(0,speed*-0.5f,0));
             }
-            else if(isMove==true){
+            else if(isMoveA==true&&isMoveB==true){
                 transform.position=transform.position + (new Vector3(speed*-1,0,0));
             }
         }

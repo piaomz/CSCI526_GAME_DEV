@@ -24,8 +24,8 @@ public class StopFloorA : MonoBehaviour
         if(other.tag == "PlayerA")
         {
             flag.SetActive(false);
-            b1.isMove=false;
-            b2.isMove=false;
+            b1.isMoveA=false;
+            b2.isMoveA=false;
         }
     }
     private void OnTriggerExit(Collider other)
@@ -33,8 +33,8 @@ public class StopFloorA : MonoBehaviour
         if (other.tag == "PlayerA")
         {
             flag.SetActive(true);
-            b1.isMove=true;
-            b2.isMove=true;
+            b1.isMoveA=true;
+            b2.isMoveA=true;
         }
     }
 }
