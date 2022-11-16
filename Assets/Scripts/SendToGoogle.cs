@@ -50,18 +50,19 @@ public void Send()
 
 public void Send(int player, string reason)
 {
-    // Assign variables
-    // PlayerA = (PlayerA)GameObject.Find("PlayerA");
-    _a_score = PlayerA.score;
-    _b_score = PlayerB.score;
-    // System.DateTime moment = System.DateTime.Now;
-    // int endTime = moment.Second;
-    DateTimeOffset dto = new DateTimeOffset(DateTime.UtcNow);
-    long endTime = dto.ToUnixTimeSeconds();
-    long _elapse_time = endTime-startTime;
-    GlobalVariables.elapseTime = (int)_elapse_time;
+    // // Assign variables
+    // // PlayerA = (PlayerA)GameObject.Find("PlayerA");
+    // _a_score = PlayerA.score;
+    // _b_score = PlayerB.score;
+    // // System.DateTime moment = System.DateTime.Now;
+    // // int endTime = moment.Second;
+    // DateTimeOffset dto = new DateTimeOffset(DateTime.UtcNow);
+    // long endTime = dto.ToUnixTimeSeconds();
+    // long _elapse_time = endTime-startTime;
+    // // GlobalVariables.elapseTime = (int)_elapse_time;
+    // Debug.Log(((int)_elapse_time).ToString() + "  ---  " +  GlobalVariables.elapseTime.ToString());
 
-    StartCoroutine(Post(_elapse_time.ToString(), player.ToString(), reason));
+    StartCoroutine(Post(GlobalVariables.elapseTime.ToString(), player.ToString(), reason));
 }
 
 public void PrintStatus(){
@@ -188,6 +189,25 @@ void initializeHashmaps(string cur_level){
         check_point_name_to_idx.Add("doorB", 1);
         check_point_name_to_idx.Add("doorAB", 3);
         // code block
+        break;
+    case "Level4":
+        coin_achieve_name_to_idx.Add("Coin (1)", 0);
+        coin_achieve_name_to_idx.Add("CoinB (1)", 1);
+        coin_achieve_name_to_idx.Add("Coin (2)", 2);
+        coin_achieve_name_to_idx.Add("CoinB (2)", 3);
+        check_point_name_to_idx.Add("doorAB", 0);
+        break;
+    case "Level5":
+        coin_achieve_name_to_idx.Add("Coin (1)", 0);
+        coin_achieve_name_to_idx.Add("CoinB (1)", 1);
+        coin_achieve_name_to_idx.Add("Coin (2)", 2);
+        coin_achieve_name_to_idx.Add("CoinB (2)", 3);
+        break;
+    case "Level6":
+        // coin_achieve_name_to_idx.Add("Coin (1)", 0);
+        // coin_achieve_name_to_idx.Add("CoinB (1)", 1);
+        // coin_achieve_name_to_idx.Add("Coin (2)", 2);
+        // coin_achieve_name_to_idx.Add("CoinB (2)", 3);
         break;
     default:
         // code block

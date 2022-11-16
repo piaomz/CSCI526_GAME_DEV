@@ -26,8 +26,8 @@ public class CameraSwiftControl : MonoBehaviour
     private long space_press_down_timestamp;
     private float space_original_FOV; // to return to original FOV
     private float space_target_FOV;
-    private float space_increasing_range = 10;
-    private float space_increasing_speed = 0.001f; // in millisecond
+    private float space_increasing_range = 20;
+    private float space_increasing_speed = 0.01f; // in millisecond
 
 
     // Start is called before the first frame update

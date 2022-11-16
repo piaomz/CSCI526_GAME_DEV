@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44300556, g: 0.49219465, b: 0.5719236, a: 1}
+  m_IndirectSpecularColor: {r: 0.44300476, g: 0.49219394, b: 0.5719215, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -671,6 +671,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d905c919abd9b4fda91bd2f5f4a696b9, type: 3}
+--- !u!1 &115873077 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2117652162662167482, guid: 3a1f1fc483fa1482f9a61af9aee5183a, type: 3}
+  m_PrefabInstance: {fileID: 848381721}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &128598249
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1268,6 +1273,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8328019015145620858, guid: bc7789da42e1943a088a8af23c7b92fc, type: 3}
   m_PrefabInstance: {fileID: 285625718}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &285625723 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 269577646761683178, guid: bc7789da42e1943a088a8af23c7b92fc, type: 3}
+  m_PrefabInstance: {fileID: 285625718}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &296912896
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2499,7 +2515,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2117652162662167481, guid: 3a1f1fc483fa1482f9a61af9aee5183a, type: 3}
   m_PrefabInstance: {fileID: 848381721}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 115873077}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b8b763acaedfa244b7f2b0e7f0dcbdd, type: 3}
@@ -4980,6 +4996,10 @@ PrefabInstance:
       value: Level2
       objectReference: {fileID: 0}
     - target: {fileID: 1212589682, guid: 69da12980cf61244285ff2ec3192f675, type: 3}
+      propertyPath: nextSceneLoad
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1212589682, guid: 69da12980cf61244285ff2ec3192f675, type: 3}
       propertyPath: congratulationText
       value: 
       objectReference: {fileID: 285625719}
@@ -5920,6 +5940,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: OpenDoorA
       objectReference: {fileID: 0}
+    - target: {fileID: 8099287331330669785, guid: 0375cd6869cdd4a77ac0ce98880f6946, type: 3}
+      propertyPath: target2
+      value: 
+      objectReference: {fileID: 115873077}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0375cd6869cdd4a77ac0ce98880f6946, type: 3}
 --- !u!1001 &1657433419451804127
@@ -6202,6 +6226,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4107572971947562168, guid: d882cc938123c4894921da4360745279, type: 3}
+      propertyPath: TimeBoard
+      value: 
+      objectReference: {fileID: 285625723}
+    - target: {fileID: 4107572971947562168, guid: d882cc938123c4894921da4360745279, type: 3}
       propertyPath: UImanager
       value: 
       objectReference: {fileID: 1115706441}
@@ -6400,6 +6428,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1929611602}
     m_Modifications:
+    - target: {fileID: 7910447781686250645, guid: 03555f505ea91432195329c4dde08a41, type: 3}
+      propertyPath: target2
+      value: 
+      objectReference: {fileID: 115873077}
     - target: {fileID: 9025576355697138184, guid: 03555f505ea91432195329c4dde08a41, type: 3}
       propertyPath: m_Name
       value: OpenDoorB

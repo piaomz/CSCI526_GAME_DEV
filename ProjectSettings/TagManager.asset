@@ -15,6 +15,9 @@ TagManager:
   - RoadB
   - endofgame
   - Notifier
+  - Chest
+  - fallfloor
+  - MovingBridge
   layers:
   - Default
   - TransparentFX

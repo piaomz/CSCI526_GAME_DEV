@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class Scenetu : MonoBehaviour
 {
-    [SerializeField] private Animator myAnimationController;
-
+    [SerializeField] private Animator EnemyAnimator;
+    [SerializeField] private Animator ChestAnimator;
+    private bool isChestOpen=false;
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("PlayerA") || other.CompareTag("PlayerB"))
         {
-            myAnimationController.SetBool("triggered", true);
+            EnemyAnimator.SetBool("triggered", true);
+            if(isChestOpen==false){
+                ChestAnimator.SetTrigger("open");
+            }
+            isChestOpen=true;
             // myAnimationController.SetBool("triggered", false);
         }
     }

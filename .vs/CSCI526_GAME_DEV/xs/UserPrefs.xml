@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="{D66145F5-53B6-54BE-1908-E3E17CF33F73}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerA.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ToNextLevel.cs">
     <Files>
-      <File FileName="Assets/Scripts/Door.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/NextLevelButton.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayerA.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Notifier.cs" Line="14" Column="20" />
+      <File FileName="Assets/Scripts/LevelSelector1.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LevelSelection.cs" Line="26" Column="1" />
+      <File FileName="Assets/Scripts/ToNextLevel.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,11 +23,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8d2c4aac-5b2f-43c4-8144-fb6c1bf1921b" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="67bf75fc-6f83-43b3-97d2-446d27e934ed" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>

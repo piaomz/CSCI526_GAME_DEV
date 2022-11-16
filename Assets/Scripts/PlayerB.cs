@@ -85,6 +85,13 @@ public class PlayerB : MonoBehaviour
             // Time.timeScale = 0;
         }
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "fallfloor")
+        {
+            Destroy(collision.gameObject, 0.5f);
+        }
+    }
 
     void ExecuteDeath(string reason){
         sendingGForm.SetDeath();
