@@ -22,10 +22,10 @@ public class Door : MonoBehaviour
     public void Lift()
     {
         if (flagA ==1 && flagB==1 && isOpen==0) {
-            sending.UpdateCheckPoint(gameObject.name);
             isOpen=1;
             transform.position = new Vector3(transform.position.x,
                 transform.position.y + (float)1.5, transform.position.z);
+            sending.UpdateCheckPoint(gameObject.name);
         }
         
     }
