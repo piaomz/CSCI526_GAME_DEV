@@ -4,7 +4,7 @@
 
 PLAY ME!!!
 
-https://play.unity.com/mg/other/webgl-builds-260512
+https://frankyjy.github.io/WebGL-host/
 
 ## Unity Editor Version
 
