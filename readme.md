@@ -1,10 +1,16 @@
 # Game Development Repo of Team WaterSkiing
 
+## ![playrecord](playrecord.gif)
+
 ## CSCI526 Advanced Mobile Devices and Game Consoles
 
 PLAY ME!!!
 
-https://play.unity.com/mg/other/webgl-builds-255174
+https://frankyjy.github.io/WebGL-host/
+
+## Game Design Document
+
+https://docs.google.com/document/d/19gOU289K4kFHLjma3p6f-AH5rlEtCQVtVA5q15uUYMA/edit?usp=sharing
 
 ## Unity Editor Version
 
