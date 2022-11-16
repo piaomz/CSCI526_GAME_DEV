@@ -10,6 +10,7 @@ public class OpenDoorA : MonoBehaviour
     void Start()
     {
         flag = this.gameObject.transform.GetChild(0).gameObject;
+
     }
 
     // Update is called once per frame

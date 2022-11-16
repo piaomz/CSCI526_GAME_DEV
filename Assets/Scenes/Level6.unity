@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44300556, g: 0.49219465, b: 0.5719236, a: 1}
+  m_IndirectSpecularColor: {r: 0.44300476, g: 0.49219394, b: 0.5719215, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -569,6 +569,10 @@ PrefabInstance:
     - target: {fileID: 656208004130221431, guid: 0375cd6869cdd4a77ac0ce98880f6946, type: 3}
       propertyPath: m_Name
       value: FlagRotateA
+      objectReference: {fileID: 0}
+    - target: {fileID: 8099287331330669798, guid: 0375cd6869cdd4a77ac0ce98880f6946, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 656208004130221417, guid: 0375cd6869cdd4a77ac0ce98880f6946, type: 3}
@@ -4021,6 +4025,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 546462870}
     m_Modifications:
+    - target: {fileID: 7910447781686250666, guid: 03555f505ea91432195329c4dde08a41, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9025576355697138184, guid: 03555f505ea91432195329c4dde08a41, type: 3}
       propertyPath: m_Name
       value: FlagRotateB
@@ -4288,6 +4296,10 @@ PrefabInstance:
     - target: {fileID: 656208004130221431, guid: 0375cd6869cdd4a77ac0ce98880f6946, type: 3}
       propertyPath: m_Name
       value: FlagRotateA
+      objectReference: {fileID: 0}
+    - target: {fileID: 8099287331330669798, guid: 0375cd6869cdd4a77ac0ce98880f6946, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 656208004130221417, guid: 0375cd6869cdd4a77ac0ce98880f6946, type: 3}
@@ -4656,6 +4668,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 312627433}
     m_Modifications:
+    - target: {fileID: 7910447781686250666, guid: 03555f505ea91432195329c4dde08a41, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9025576355697138184, guid: 03555f505ea91432195329c4dde08a41, type: 3}
       propertyPath: m_Name
       value: FlagRotateB

@@ -46,7 +46,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddf6c35778b6f4c4d99a8ebcf2f89a1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  length: 10
+  length: 12
+  target1: {fileID: 0}
+  target2: {fileID: 0}
   line: {fileID: 8805331213955079421}
   line2: {fileID: 8805331214575466812}
   lineVertices:
