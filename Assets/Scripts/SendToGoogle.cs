@@ -195,6 +195,7 @@ void initializeHashmaps(string cur_level){
         coin_achieve_name_to_idx.Add("CoinB (1)", 1);
         coin_achieve_name_to_idx.Add("Coin (2)", 2);
         coin_achieve_name_to_idx.Add("CoinB (2)", 3);
+        check_point_name_to_idx.Add("doorAB", 0);
         break;
     case "Level5":
         coin_achieve_name_to_idx.Add("Coin (1)", 0);
