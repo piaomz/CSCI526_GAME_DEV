@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44300556, g: 0.49219465, b: 0.5719236, a: 1}
+  m_IndirectSpecularColor: {r: 0.44300476, g: 0.49219394, b: 0.5719215, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2998,17 +2998,12 @@ PrefabInstance:
       objectReference: {fileID: 942636887}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69da12980cf61244285ff2ec3192f675, type: 3}
---- !u!1 &838702081 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 967992088351800889, guid: 69da12980cf61244285ff2ec3192f675, type: 3}
-  m_PrefabInstance: {fileID: 838702080}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &838702082 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 967992088351800866, guid: 69da12980cf61244285ff2ec3192f675, type: 3}
   m_PrefabInstance: {fileID: 838702080}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 838702081}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd8e12afc7e75d04590acc12a2ad3fd2, type: 3}
@@ -3019,7 +3014,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 967992088351800895, guid: 69da12980cf61244285ff2ec3192f675, type: 3}
   m_PrefabInstance: {fileID: 838702080}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 838702081}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3694f4db6f158ed44b03d31302dc2ee3, type: 3}
@@ -3460,7 +3455,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   scoreText: {fileID: 1641877027}
-  gameOverText: {fileID: 838702081}
+  gameOverText: {fileID: 1686277274}
   deadLiney: -3
   sendingGForm: {fileID: 838702083}
   deathReasonText: {fileID: 1641877026}
@@ -5278,7 +5273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   scoreText: {fileID: 1641877028}
-  gameOverText: {fileID: 1641877025}
+  gameOverText: {fileID: 1686277274}
   deadLiney: -3
   sendingGForm: {fileID: 838702083}
   deathReasonText: {fileID: 1641877026}
@@ -5877,6 +5872,11 @@ RectTransform:
   m_AnchoredPosition: {x: 6.83, y: 0.1}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1686277274 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2941739521858425324, guid: bc7789da42e1943a088a8af23c7b92fc, type: 3}
+  m_PrefabInstance: {fileID: 1641877024}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1693496558
 PrefabInstance:
   m_ObjectHideFlags: 0
