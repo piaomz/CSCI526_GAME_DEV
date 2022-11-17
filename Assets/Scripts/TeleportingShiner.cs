@@ -6,13 +6,19 @@ public class TeleportingShiner : MonoBehaviour
 {
     // Start is called before the first frame update
     // Start is called before the first frame update
-    public GameObject teleportTargetPositionLight;
+    // public GameObject teleportTargetPositionLight;
+    public GameObject teleportStartPositionMagicCircle;
+    public GameObject teleportTargetPositionMagicCircle;
     // public GameObject thePlayer;
 
     void OnTriggerEnter(Collider other) {
-        teleportTargetPositionLight.SetActive(true);
+        // teleportTargetPositionLight.SetActive(true);
+        teleportStartPositionMagicCircle.SetActive(true);
+        teleportTargetPositionMagicCircle.SetActive(true);
     }
     void OnTriggerExit(Collider other){
-        teleportTargetPositionLight.SetActive(false);
+        // teleportTargetPositionLight.SetActive(false);
+        teleportStartPositionMagicCircle.SetActive(false);
+        teleportTargetPositionMagicCircle.SetActive(false);
     }
 }

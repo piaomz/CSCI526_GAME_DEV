@@ -7,17 +7,19 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DemoMat0
-  m_Shader: {fileID: 4800000, guid: 7cd5de0b884b14f88ab763ef465e1799, type: 3}
-  m_ValidKeywords: []
+  m_Name: DemoMat0 1
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ValidKeywords:
+  - _ALPHAPREMULTIPLY_ON
   m_InvalidKeywords:
   - _RIMOVERLAP_ON
   - _SPCOVERLAP_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -67,7 +69,7 @@ Material:
     - _ColIntense: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DstBlend: 0
+    - _DstBlend: 10
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -76,7 +78,7 @@ Material:
     - _MaxLight: 1
     - _Metallic: 0
     - _MinLight: 1
-    - _Mode: 0
+    - _Mode: 3
     - _OcclusionStrength: 1
     - _Offset: 0
     - _Parallax: 0.02
@@ -102,9 +104,9 @@ Material:
     - _Steps: 1
     - _StpSmooth: 0
     - _UVSec: 0
-    - _ZWrite: 1
+    - _ZWrite: 0
     m_Colors:
-    - _Color: {r: 1, g: 0.9088449, b: 0.495283, a: 1}
+    - _Color: {r: 1, g: 0.9088449, b: 0.495283, a: 0.7372549}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MaxColor: {r: 0.99215686, g: 0.93225354, b: 0.19743922, a: 1}
     - _MinColor: {r: 0, g: 0, b: 0, a: 1}

@@ -21,7 +21,7 @@ public class TimeBoardUpdater : MonoBehaviour
     {
         if (Time.timeScale > 0){
             curTime += Time.deltaTime;
-            TimeBoard.text = String.Format("{0:.0}", curTime);
+            TimeBoard.text = String.Format("{0:.0s}", curTime);
             GlobalVariables.elapseTime = curTime;
         }
 

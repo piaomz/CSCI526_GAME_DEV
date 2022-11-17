@@ -2399,7 +2399,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0.00
+  m_Text: 0.00s
 --- !u!114 &7044440553776193613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2667,7 +2667,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Time:         s'
+  m_Text: 'Time: '
 --- !u!114 &3012745025200478885
 MonoBehaviour:
   m_ObjectHideFlags: 0
