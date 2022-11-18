@@ -271,7 +271,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8443655122574607196, guid: 94b9029a146f54b958c0e7c06d9459f3, type: 3}
   m_PrefabInstance: {fileID: 34762141}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1935826130}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b8b763acaedfa244b7f2b0e7f0dcbdd, type: 3}
@@ -2201,6 +2201,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: OpenDoorA
       objectReference: {fileID: 0}
+    - target: {fileID: 8099287331330669785, guid: 0375cd6869cdd4a77ac0ce98880f6946, type: 3}
+      propertyPath: target2
+      value: 
+      objectReference: {fileID: 1935826130}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0375cd6869cdd4a77ac0ce98880f6946, type: 3}
 --- !u!4 &481720083 stripped
@@ -2909,6 +2913,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: a1f37417ef7b6c14cbbc17f7295996c7, type: 3}
+--- !u!1 &634214810 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4047294935808287852, guid: f1d3e2828ac854cf2bbb99cb0f7ae0b1, type: 3}
+  m_PrefabInstance: {fileID: 1328151008}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &642589415
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5713,7 +5722,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4047294935808287850, guid: f1d3e2828ac854cf2bbb99cb0f7ae0b1, type: 3}
   m_PrefabInstance: {fileID: 1328151008}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 634214810}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b8b763acaedfa244b7f2b0e7f0dcbdd, type: 3}
@@ -6795,6 +6804,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 72018756}
     m_Modifications:
+    - target: {fileID: 7910447781686250645, guid: 03555f505ea91432195329c4dde08a41, type: 3}
+      propertyPath: target2
+      value: 
+      objectReference: {fileID: 634214810}
     - target: {fileID: 9025576355697138184, guid: 03555f505ea91432195329c4dde08a41, type: 3}
       propertyPath: m_Name
       value: OpenDoorB
@@ -7603,6 +7616,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4259080689594872, guid: 6c919ec1c1e88a94c95afc28b198b9f8, type: 3}
   m_PrefabInstance: {fileID: 1887247198}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1935826130 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8443655122574607139, guid: 94b9029a146f54b958c0e7c06d9459f3, type: 3}
+  m_PrefabInstance: {fileID: 34762141}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1948781166
 PrefabInstance:
