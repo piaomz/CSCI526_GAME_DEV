@@ -92,6 +92,7 @@ public class PlayerA : MonoBehaviour
             // //gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
             // Time.timeScale = 0;
         }
+
         
         
     }

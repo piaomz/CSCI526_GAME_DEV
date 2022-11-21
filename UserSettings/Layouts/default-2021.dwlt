@@ -14,12 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 456
     y: 188
     width: 2048
     height: 1109
   m_ShowMode: 4
   m_Title: Game
+=======
+    x: 55
+    y: 53
+    width: 1865
+    height: 1027
+  m_ShowMode: 4
+  m_Title: Hierarchy
+>>>>>>> 744bc198 (add new popup frame and script)
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 350}
   m_MaxSize: {x: 10000, y: 10000}
@@ -44,8 +53,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 2048
     height: 1109
+=======
+    width: 1865
+    height: 1027
+>>>>>>> 744bc198 (add new popup frame and script)
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -69,7 +83,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2048
+    width: 1865
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -90,8 +104,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 1089
     width: 2048
+=======
+    y: 1007
+    width: 1865
+>>>>>>> 744bc198 (add new popup frame and script)
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -114,12 +133,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 2048
     height: 1059
   m_MinSize: {x: 300, y: 300}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
   controlID: 177
+=======
+    width: 1865
+    height: 977
+  m_MinSize: {x: 300, y: 300}
+  m_MaxSize: {x: 24288, y: 24288}
+  vertical: 0
+  controlID: 24918
+>>>>>>> 744bc198 (add new popup frame and script)
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,12 +167,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1714
     height: 1059
   m_MinSize: {x: 200, y: 300}
   m_MaxSize: {x: 16192, y: 24288}
   vertical: 0
   controlID: 70
+=======
+    width: 1442.5
+    height: 977
+  m_MinSize: {x: 200, y: 300}
+  m_MaxSize: {x: 16192, y: 24288}
+  vertical: 0
+  controlID: 24919
+>>>>>>> 744bc198 (add new popup frame and script)
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,12 +201,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1322
     height: 1059
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
   controlID: 28
+=======
+    width: 941
+    height: 977
+  m_MinSize: {x: 100, y: 200}
+  m_MaxSize: {x: 8096, y: 16192}
+  vertical: 1
+  controlID: 24920
+>>>>>>> 744bc198 (add new popup frame and script)
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,8 +233,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1322
     height: 823
+=======
+    width: 941
+    height: 759.5
+>>>>>>> 744bc198 (add new popup frame and script)
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
@@ -213,11 +264,19 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 823
     width: 1322
     height: 236
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+    y: 759.5
+    width: 941
+    height: 217.5
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+>>>>>>> 744bc198 (add new popup frame and script)
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -242,6 +301,7 @@ MonoBehaviour:
   - {fileID: 13}
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1322
     y: 0
     width: 392
@@ -250,6 +310,16 @@ MonoBehaviour:
   m_MaxSize: {x: 8096, y: 24288}
   vertical: 1
   controlID: 71
+=======
+    x: 941
+    y: 0
+    width: 501.5
+    height: 977
+  m_MinSize: {x: 100, y: 300}
+  m_MaxSize: {x: 8096, y: 24288}
+  vertical: 1
+  controlID: 24852
+>>>>>>> 744bc198 (add new popup frame and script)
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -267,10 +337,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 392
     height: 530
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+    width: 501.5
+    height: 488.5
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+>>>>>>> 744bc198 (add new popup frame and script)
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -292,11 +369,19 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 530
     width: 392
     height: 204
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+    y: 488.5
+    width: 501.5
+    height: 188.5
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+>>>>>>> 744bc198 (add new popup frame and script)
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -318,9 +403,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 734
     width: 392
     height: 325
+=======
+    y: 677
+    width: 501.5
+    height: 300
+>>>>>>> 744bc198 (add new popup frame and script)
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 21}
@@ -343,12 +434,21 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1714
     y: 0
     width: 334
     height: 1059
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+    x: 1442.5
+    y: 0
+    width: 422.5
+    height: 977
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+>>>>>>> 744bc198 (add new popup frame and script)
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -374,10 +474,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1778
     y: 748
     width: 390
     height: 183
+=======
+    x: 996
+    y: 571.5
+    width: 499.5
+    height: 167.5
+>>>>>>> 744bc198 (add new popup frame and script)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -402,10 +509,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 456
     y: 218
     width: 1321
     height: 802
+=======
+    x: 55
+    y: 83
+    width: 940
+    height: 738.5
+>>>>>>> 744bc198 (add new popup frame and script)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -415,8 +529,13 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
+<<<<<<< HEAD
       snapOffset: {x: -100, y: -25.599976}
       snapOffsetDelta: {x: -1, y: -0.4000244}
+=======
+      snapOffset: {x: -101, y: -26}
+      snapOffsetDelta: {x: 0, y: 0}
+>>>>>>> 744bc198 (add new popup frame and script)
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -438,7 +557,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: 0, y: 24.8}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0.20000076}
       snapCorner: 0
       id: unity-scene-view-toolbar
       index: 0
@@ -449,7 +568,11 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
+<<<<<<< HEAD
       snapOffsetDelta: {x: 0, y: 0}
+=======
+      snapOffsetDelta: {x: 0, y: 25}
+>>>>>>> 744bc198 (add new popup frame and script)
       snapCorner: 1
       id: unity-search-toolbar
       index: 1
@@ -482,7 +605,11 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
+<<<<<<< HEAD
       snapOffsetDelta: {x: 0, y: 0}
+=======
+      snapOffsetDelta: {x: 0, y: 25}
+>>>>>>> 744bc198 (add new popup frame and script)
       snapCorner: 0
       id: Scene View/Light Settings
       index: 0
@@ -493,7 +620,11 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
+<<<<<<< HEAD
       snapOffsetDelta: {x: 0, y: 0}
+=======
+      snapOffsetDelta: {x: 0, y: 25}
+>>>>>>> 744bc198 (add new popup frame and script)
       snapCorner: 0
       id: Scene View/Camera
       index: 1
@@ -504,7 +635,11 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
+<<<<<<< HEAD
       snapOffsetDelta: {x: 0, y: 0}
+=======
+      snapOffsetDelta: {x: 0, y: 25}
+>>>>>>> 744bc198 (add new popup frame and script)
       snapCorner: 0
       id: Scene View/Cloth Constraints
       index: 2
@@ -515,7 +650,11 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
+<<<<<<< HEAD
       snapOffsetDelta: {x: 0, y: 0}
+=======
+      snapOffsetDelta: {x: 0, y: 25}
+>>>>>>> 744bc198 (add new popup frame and script)
       snapCorner: 0
       id: Scene View/Cloth Collisions
       index: 3
@@ -526,7 +665,11 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
+<<<<<<< HEAD
       snapOffsetDelta: {x: 0, y: 0}
+=======
+      snapOffsetDelta: {x: 0, y: 25}
+>>>>>>> 744bc198 (add new popup frame and script)
       snapCorner: 0
       id: Scene View/Navmesh Display
       index: 4
@@ -537,7 +680,11 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
+<<<<<<< HEAD
       snapOffsetDelta: {x: 0, y: 0}
+=======
+      snapOffsetDelta: {x: 0, y: 25}
+>>>>>>> 744bc198 (add new popup frame and script)
       snapCorner: 0
       id: Scene View/Agent Display
       index: 5
@@ -548,7 +695,11 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
+<<<<<<< HEAD
       snapOffsetDelta: {x: 0, y: 0}
+=======
+      snapOffsetDelta: {x: 0, y: 25}
+>>>>>>> 744bc198 (add new popup frame and script)
       snapCorner: 0
       id: Scene View/Obstacle Display
       index: 6
@@ -559,7 +710,11 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
+<<<<<<< HEAD
       snapOffsetDelta: {x: 0, y: 0}
+=======
+      snapOffsetDelta: {x: 0, y: 25}
+>>>>>>> 744bc198 (add new popup frame and script)
       snapCorner: 0
       id: Scene View/Occlusion Culling
       index: 7
@@ -570,7 +725,11 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
+<<<<<<< HEAD
       snapOffsetDelta: {x: 0, y: 0}
+=======
+      snapOffsetDelta: {x: 0, y: 25}
+>>>>>>> 744bc198 (add new popup frame and script)
       snapCorner: 0
       id: Scene View/Physics Debugger
       index: 8
@@ -581,7 +740,11 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
+<<<<<<< HEAD
       snapOffsetDelta: {x: 0, y: 0}
+=======
+      snapOffsetDelta: {x: 0, y: 25}
+>>>>>>> 744bc198 (add new popup frame and script)
       snapCorner: 0
       id: Scene View/Scene Visibility
       index: 9
@@ -592,7 +755,11 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
+<<<<<<< HEAD
       snapOffsetDelta: {x: 0, y: 0}
+=======
+      snapOffsetDelta: {x: 0, y: 25}
+>>>>>>> 744bc198 (add new popup frame and script)
       snapCorner: 0
       id: Scene View/Particles
       index: 10
@@ -607,9 +774,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -1.5410354, y: 2.707951, z: 1.76915}
     speed: 2
     m_Value: {x: -1.5410354, y: 2.707951, z: 1.76915}
+=======
+    m_Target: {x: 508.75, y: 286, z: 0}
+    speed: 2
+    m_Value: {x: -2.2697523, y: 13.145988, z: -0.37902832}
+>>>>>>> 744bc198 (add new popup frame and script)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -638,7 +811,7 @@ MonoBehaviour:
       m_Size: {x: 1, y: 1}
     yGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
@@ -646,9 +819,9 @@ MonoBehaviour:
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 0
+        m_Target: 1
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -656,6 +829,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0.20022963, y: 0.014709428, z: -0.0029940282, w: 0.97965586}
     speed: 2
     m_Value: {x: 0.20022534, y: 0.014709112, z: -0.002993964, w: 0.9796348}
@@ -663,10 +837,19 @@ MonoBehaviour:
     m_Target: 6.241245
     speed: 2
     m_Value: 6.241245
-  m_Ortho:
-    m_Target: 0
+=======
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: 0
+    m_Value: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_Size:
+    m_Target: 583.6288
+    speed: 2
+    m_Value: 22.32637
+>>>>>>> 744bc198 (add new popup frame and script)
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1.2403798
     m_SpeedNormalized: 0.6199999
@@ -707,10 +890,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 456
     y: 218
     width: 1321
     height: 802
+=======
+    x: 55
+    y: 83
+    width: 940
+    height: 738.5
+>>>>>>> 744bc198 (add new popup frame and script)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -723,7 +913,11 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
   m_TargetSize: {x: 1321, y: 743}
+=======
+  m_TargetSize: {x: 940, y: 529}
+>>>>>>> 744bc198 (add new popup frame and script)
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -738,10 +932,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -660.5
     m_HBaseRangeMax: 660.5
     m_VBaseRangeMin: -371.5
     m_VBaseRangeMax: 371.5
+=======
+    m_HBaseRangeMin: -235
+    m_HBaseRangeMax: 235
+    m_VBaseRangeMin: -132.25
+    m_VBaseRangeMax: 132.25
+>>>>>>> 744bc198 (add new popup frame and script)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -759,16 +960,24 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
       width: 1321
       height: 781
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 660.5, y: 390.5}
+=======
+      width: 940
+      height: 717.5
+    m_Scale: {x: 2, y: 2}
+    m_Translation: {x: 470, y: 358.75}
+>>>>>>> 744bc198 (add new popup frame and script)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -660.5
       y: -390.5
       width: 1321
@@ -776,6 +985,15 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1321, y: 802}
+=======
+      x: -235
+      y: -179.375
+      width: 470
+      height: 358.75
+    m_MinimalGUI: 1
+  m_defaultScale: 2
+  m_LastWindowPixelSize: {x: 1880, y: 1477}
+>>>>>>> 744bc198 (add new popup frame and script)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -801,10 +1019,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 456
     y: 1041
     width: 1321
     height: 215
+=======
+    x: 55
+    y: 842.5
+    width: 940
+    height: 196.5
+>>>>>>> 744bc198 (add new popup frame and script)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1028,7 +1253,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -1440764
+  m_LastSelectedObjectID: 2924338
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1049,10 +1274,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1778
     y: 218
     width: 390
     height: 509
+=======
+    x: 996
+    y: 83
+    width: 499.5
+    height: 467.5
+>>>>>>> 744bc198 (add new popup frame and script)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1060,6 +1292,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 8452e6ff8852e6ff66b4e6ff9611e7ffcab3e8ff1c7feaff7222ecff7ac4edffe0c4edffe466efffc40bf1ffb4aef2ffce53f4ffaef9f5ff0ea0f7ffd442f9fff8e9faff9826feffbc27feff
@@ -1067,13 +1300,26 @@ MonoBehaviour:
         m_UserAcceptedRename: 0
         m_Name: dialogContent
         m_OriginalName: dialogContent
+=======
+      m_SelectedIDs: 4cef2f00
+      m_LastClickedID: 3141452
+      m_ExpandedIDs: 3cdce6ff0eef2f00
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: PopUpUI
+        m_OriginalName: PopUpUI
+>>>>>>> 744bc198 (add new popup frame and script)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
+<<<<<<< HEAD
         m_UserData: -1682804
+=======
+        m_UserData: -1540400
+>>>>>>> 744bc198 (add new popup frame and script)
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -1106,10 +1352,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1778
     y: 952
     width: 390
     height: 304
+=======
+    x: 996
+    y: 760
+    width: 499.5
+    height: 279
+>>>>>>> 744bc198 (add new popup frame and script)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1135,6 +1388,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Prefabs
   m_LastFoldersGridSize: 16
+<<<<<<< HEAD
   m_LastProjectPath: C:\Users\14048\Desktop\CSCI526_GAME_DEV
   m_LockTracker:
     m_IsLocked: 0
@@ -1143,20 +1397,30 @@ MonoBehaviour:
     m_SelectedIDs: ce200100
     m_LastClickedID: 73934
     m_ExpandedIDs: 00000000c4200100d820010000ca9a3b
+=======
+  m_LastProjectPath: /Users/hupei/Unity_Project/CSCI526_GAME_DEV
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 49}
+    m_SelectedIDs: 08690100
+    m_LastClickedID: 92424
+    m_ExpandedIDs: 00000000fe68010000ca9a3b
+>>>>>>> 744bc198 (add new popup frame and script)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Prefabs
+      m_OriginalName: Prefabs
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 92424
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 13}
     m_SearchString: 
@@ -1170,7 +1434,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 
+=======
+    m_ExpandedIDs: 00000000fe68010000ca9a3b
+>>>>>>> 744bc198 (add new popup frame and script)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1201,15 +1469,24 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000000000002a990000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
+<<<<<<< HEAD
       m_Name: TutorialPopupContainer
       m_OriginalName: TutorialPopupContainer
+=======
+      m_Name: Level0
+      m_OriginalName: Level0
+>>>>>>> 744bc198 (add new popup frame and script)
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
+<<<<<<< HEAD
       m_UserData: 632258
+=======
+      m_UserData: 92604
+>>>>>>> 744bc198 (add new popup frame and script)
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -1222,7 +1499,11 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
+<<<<<<< HEAD
     m_ScrollPosition: {x: 0, y: 303}
+=======
+    m_ScrollPosition: {x: 0, y: 256.00006}
+>>>>>>> 744bc198 (add new popup frame and script)
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 192.40002
@@ -1246,10 +1527,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 2170
     y: 218
     width: 333
     height: 1038
+=======
+    x: 1497.5
+    y: 83
+    width: 421.5
+    height: 956
+>>>>>>> 744bc198 (add new popup frame and script)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1261,7 +1549,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 223.1998
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

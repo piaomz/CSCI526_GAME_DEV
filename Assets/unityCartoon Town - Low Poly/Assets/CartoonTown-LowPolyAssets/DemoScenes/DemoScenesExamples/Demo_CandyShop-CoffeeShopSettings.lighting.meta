@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 624cab171b01c429ba21740c7485162d
+=======
+guid: 5981735f65b834120930dc3fe0bd176c
+>>>>>>> 744bc198 (add new popup frame and script)
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 4890085278179872738

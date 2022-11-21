@@ -6,6 +6,7 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
+<<<<<<< HEAD
       value: 5a54045757575958090d582711770e404e4e4e7a287d73612c784460e6e2306c
       flags: 0
     RecentlyUsedSceneGuid-1:
@@ -28,9 +29,33 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedSceneGuid-7:
       value: 5754515f07530a035a56582416770a444e4f1b79297e24652c2a1867e4b66c39
+=======
+      value: 520001515c540a5e5a085b7713775a40104f497f7c2e7268757c4a6be4b7646d
+      flags: 0
+    RecentlyUsedSceneGuid-1:
+      value: 5601520052505c0e5556587248770f1242164c722f2a7e34282b1f62b1b4626f
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 5208065352515f0e5b5f0927127709144e4e407f787a206128704835b0e16668
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 0050500707575a0e0e59547116770d454115497e287f76657b784560b5e4326c
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 5b00005450025f0f5b5a5e7b48770f16464e1a732a2b7e647d2f4c30b6b26468
+      flags: 0
+    RecentlyUsedSceneGuid-5:
+      value: 0504555601000b59555f0f7b46775c434f16197e7a7c71677b2b1f31b5b2316f
+      flags: 0
+    RecentlyUsedSceneGuid-6:
+      value: 50010c5150545e090f5c542313770a43474f4b7e787176667f284c61e6e4616a
+      flags: 0
+    RecentlyUsedSceneGuid-7:
+      value: 050350035104500b085a5a7746775d1110164b7d752c75357e704b62e7b3666e
+>>>>>>> 744bc198 (add new popup frame and script)
       flags: 0
     RecentlyUsedSceneGuid-8:
-      value: 530507565500080e5f5d582411775a4244161d2e7e2e7567282a4465b7b1306d
+      value: 5a54045757575958090d582711770e404e4e4e7a287d73612c784460e6e2306c
       flags: 0
     RecentlyUsedSceneGuid-9:
       value: 53030d5f570d5c5d5d0c5f774077081444151b7e757a76367d714a66e1b76061
