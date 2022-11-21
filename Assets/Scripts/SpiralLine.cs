@@ -15,7 +15,10 @@ public class SpiralLine : MonoBehaviour
     private float radius = 0.2f;
     private float intensityOfDot = 0.2f;
     private float density = 0.5f;
-    
+    private float time = 0f;
+    private float mediumColor = 0.1f;
+    private float colorVary;
+    private float colorVarySpeed= 0.05f;
     // Start is called before the first frame update
     void Start()
     {
@@ -51,6 +54,11 @@ public class SpiralLine : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        transform.Rotate(new Vector3(0,0,0.7f));
+        time = time +colorVarySpeed;
+        colorVary=mediumColor*Mathf.Cos(time)+mediumColor*1.5f;
+        line.LineColor= new Color(colorVary,colorVary,colorVary,1f);
+        line2.LineColor= new Color(colorVary,colorVary,colorVary,1f);
         float dx= target1.transform.position.x-target2.transform.position.x;
         float dz = target1.transform.position.z-target2.transform.position.z;
         //Debug.Log(new Vector2(dx,dz));
