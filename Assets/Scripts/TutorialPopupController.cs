@@ -17,6 +17,7 @@ public class TutorialPopupController : MonoBehaviour
             showed = true;// show once
             Time.timeScale = 0;
         }
+        showed = false;
     }
 
     public void closeCanvas(){
