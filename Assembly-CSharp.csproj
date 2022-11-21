@@ -58,8 +58,12 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\RankingBoard\Score.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\AntiAliasing\FXAA\FXAA.cs" />
+    <Compile Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\Common\RenderTextureUtility.cs" />
+    <Compile Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\Bloom\Bloom.cs" />
     <Compile Include="Assets\VolumetricLines\Scripts\VolumetricLineVertexData.cs" />
     <Compile Include="Assets\Scripts\OpenDoorA.cs" />
+    <Compile Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\AmbientOcclusion\AmbientOcclusion.cs" />
     <Compile Include="Assets\AurynSky\Forest Pack\Scripts\MaterialMover.cs" />
     <Compile Include="Assets\Scripts\Scenetu.cs" />
     <Compile Include="Assets\Scripts\SaveMeOverScene.cs" />
@@ -70,8 +74,10 @@
     <Compile Include="Assets\Scripts\Scene3R2Play.cs" />
     <Compile Include="Assets\Scripts\ToNextLevel.cs" />
     <Compile Include="Assets\Scripts\Notifier.cs" />
+    <Compile Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\TonemappingColorGrading\TonemappingColorGrading.cs" />
     <Compile Include="Assets\Scripts\Coin.cs" />
     <Compile Include="Assets\Scripts\RotateFloorRight.cs" />
+    <Compile Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\ScreenSpaceReflection\ScreenSpaceReflection.cs" />
     <Compile Include="Assets\Scripts\SendToGoogle.cs" />
     <Compile Include="Assets\Scripts\CameraSwiftControl.cs" />
     <Compile Include="Assets\Scripts\RankingBoard\SendToLooklocker.cs" />
@@ -92,61 +98,88 @@
     <Compile Include="Assets\Scripts\CameraFollowingOneObj.cs" />
     <Compile Include="Assets\Scripts\MakeSelfParticleSystemsUnscaledtime.cs" />
     <Compile Include="Assets\Scripts\LeaderBoardController.cs" />
+    <Compile Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\LensAberrations\LensAberrations.cs" />
     <Compile Include="Assets\Scripts\SetPlayerName.cs" />
+    <Compile Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\AntiAliasing\SMAA\SMAA.cs" />
     <Compile Include="Assets\Scripts\LevelSelector1.cs" />
     <Compile Include="Assets\AurynSky\Forest Pack\Scripts\Rotator.cs" />
     <Compile Include="Assets\Scripts\RankingBoard\RowUi.cs" />
     <Compile Include="Assets\Scripts\GlobalVariables.cs" />
     <Compile Include="Assets\Samples\Analytics\4.1.0\Standard Events\StandardEventSample.cs" />
     <Compile Include="Assets\Samples\Analytics\4.1.0\Standard Events\AnalyticsEventHandler.cs" />
+    <Compile Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\AmbientOcclusion\Helpers\PropertyObserver.cs" />
     <Compile Include="Assets\Scripts\RankingBoard\ScoreUIManager.cs" />
     <Compile Include="Assets\Scripts\TeleportingShiner.cs" />
     <Compile Include="Assets\Scripts\CameraMainFollowing.cs" />
     <Compile Include="Assets\VolumetricLines\Scripts\VolumetricLineBehavior.cs" />
     <Compile Include="Assets\Scripts\ManualBoardControl.cs" />
     <Compile Include="Assets\Scripts\MoveToNextLevel.cs" />
+    <Compile Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\DepthOfField\DepthOfField.cs" />
     <Compile Include="Assets\Scripts\PlayerB.cs" />
     <Compile Include="Assets\Scripts\RankingBoard\ScoreData.cs" />
+    <Compile Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\Common\MinAttribute.cs" />
     <Compile Include="Assets\Scripts\Bridge.cs" />
     <Compile Include="Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\VolumetricMultiLineBehavior.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
+    <Compile Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\AmbientOcclusion\Helpers\Settings.cs" />
     <Compile Include="Assets\Scripts\ToLeaderboard.cs" />
     <Compile Include="Assets\trigger.cs" />
     <Compile Include="Assets\Scripts\SpiralLine.cs" />
+    <Compile Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\AntiAliasing\AntiAliasing.cs" />
     <Compile Include="Assets\Scripts\RankingBoard\ScoreManager.cs" />
+    <Compile Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\AntiAliasing\IAntiAliasing.cs" />
     <Compile Include="Assets\AurynSky\Forest Pack\Scripts\ChestDemo.cs" />
     <Compile Include="Assets\Scripts\Teleporting.cs" />
     <Compile Include="Assets\Scripts\WorldSwitch.cs" />
     <Compile Include="Assets\Scripts\ReturnButton.cs" />
     <Compile Include="Assets\Scripts\RotateFloorLeft.cs" />
+    <Compile Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\Common\ImageEffectHelper.cs" />
     <Compile Include="Assets\Scripts\TutorialPopupController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\DepthOfField\Resources\MedianFilter.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\VolumetricLines\BuiltInRenderPipeline\Shaders\_LineStripShader.cginc" />
     <None Include="Assets\Simple Toon\Shaders\STOutline.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\LensAberrations\Resources\LensAberrations.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\AntiAliasing\SMAA\Resources\SMAA.cginc" />
+    <None Include="Assets\unityCartoon Town - Low Poly\Library\ScriptAssemblies\Assembly-CSharp.dll" />
+    <None Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\AntiAliasing\FXAA\Resources\FXAA3.cginc" />
     <None Include="Assets\Scripts\gitcommitlogbackup.txt" />
+    <None Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\Bloom\Resources\Bloom.shader" />
+    <None Include="Assets\unityCartoon Town - Low Poly\Library\LibraryFormatVersion.txt" />
+    <None Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\AntiAliasing\SMAA\Resources\SMAA.shader" />
+    <None Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\AmbientOcclusion\Resources\AmbientOcclusion.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\TonemappingColorGrading\Resources\TonemappingColorGrading.shader" />
     <None Include="Assets\VolumetricLines\BuiltInRenderPipeline\Shaders\LineStrip-TextureAlphaBlended.shader" />
+    <None Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\TonemappingColorGrading\Resources\TonemappingColorGrading.cginc" />
     <None Include="Assets\VolumetricLines\BuiltInRenderPipeline\Shaders\SingleLine-TextureAdditive.shader" />
+    <None Include="Assets\unityCartoon Town - Low Poly\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\Bloom\Resources\Bloom.cginc" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\Simple Toon\Shaders\STTransparent.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\unityCartoon Town - Low Poly\Library\LastSceneManagerSetup.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\VolumetricLines\BuiltInRenderPipeline\Shaders\_SingleLineShader.cginc" />
     <None Include="Assets\VolumetricLines\BuiltInRenderPipeline\Shaders\LineStrip-TextureAdditive.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Simple Toon\Shaders\STCore.cginc" />
+    <None Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\DepthOfField\Resources\BokehSplatting.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\TonemappingColorGrading\Resources\HistogramRender.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\AmbientOcclusion\Resources\AmbientOcclusion.cginc" />
     <None Include="Assets\VolumetricLines\BuiltInRenderPipeline\Shaders\SingleLine-TextureAlphaBlended.shader" />
+    <None Include="Assets\unityCartoon Town - Low Poly\ProjectSettings\ProjectVersion.txt" />
     <None Include="Assets\Simple Toon\Shaders\STDefault.shader" />
     <None Include="Assets\VolumetricLines\BuiltInRenderPipeline\Shaders\LineStrip-LightSaber.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
@@ -154,9 +187,14 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Simple Toon\Shaders\STFunctions.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\AntiAliasing\FXAA\Resources\FXAA.shader" />
+    <None Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\TonemappingColorGrading\Resources\HistogramCompute.compute" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\ScreenSpaceReflection\Resources\ScreenSpaceReflection.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\AurynSky\Forest Pack\READ ME.txt" />
+    <None Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\ScreenSpaceReflection\Resources\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\unityCartoon Town - Low Poly\Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\DepthOfField\Resources\DepthOfField.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
@@ -420,6 +458,12 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-Editor">
+      <HintPath>Assets\unityCartoon Town - Low Poly\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>Assets\unityCartoon Town - Low Poly\Library\ScriptAssemblies\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>E:\Program Files\Unity\editor\2021.3.9f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
