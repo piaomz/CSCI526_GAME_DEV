@@ -14,9 +14,10 @@ public class PlayerA : MonoBehaviour
     public int deadLiney = -3;
     public SendToGoogle sendingGForm;
     private float drag= 0.85f;
-    private float maxV=25;
+    public float maxV=25;
     private bool inertia;
     public Text deathReasonText;
+    public int gravityScale = 1;
     
     //private GameObject winText;
     //private Rigidbody door;
@@ -30,6 +31,7 @@ public class PlayerA : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        rd.AddForce(Physics.gravity * gravityScale);
         float h = Input.GetAxis("Horizontal2");//-1 1
         float v = Input.GetAxis("Vertical2");//ws
         if(inertia){
