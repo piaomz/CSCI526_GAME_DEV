@@ -51,12 +51,28 @@ public class SpiralLine : MonoBehaviour
         }
     }
 
+    private bool stageShow = false;
+    private int stageShowSwiftCD = 60;
     // Update is called once per frame
     void FixedUpdate()
     {
         transform.Rotate(new Vector3(0,0,0.7f));
         time = time +colorVarySpeed;
-        colorVary=mediumColor*Mathf.Cos(time)+mediumColor*1.5f;
+        if(stageShow){
+            // if constantly show only this
+            colorVary=mediumColor*Mathf.Cos(time)+mediumColor*1.5f;
+            if(stageShowSwiftCD == 0){
+                stageShow = false;
+                stageShowSwiftCD = 400;
+            }
+        }else{
+            colorVary=0;
+            if(stageShowSwiftCD == 0){
+                stageShow = true;
+                stageShowSwiftCD = 60;
+            }
+        }
+        stageShowSwiftCD -= 1;
         line.LineColor= new Color(colorVary,colorVary,colorVary,1f);
         line2.LineColor= new Color(colorVary,colorVary,colorVary,1f);
         float dx= target1.transform.position.x-target2.transform.position.x;
