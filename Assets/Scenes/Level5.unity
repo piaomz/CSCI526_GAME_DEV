@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44300476, g: 0.49219394, b: 0.5719215, a: 1}
+  m_IndirectSpecularColor: {r: 0.44300556, g: 0.49219465, b: 0.5719236, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2567,7 +2567,9 @@ MonoBehaviour:
   gameOverText: {fileID: 766721017}
   deadLiney: -3
   sendingGForm: {fileID: 1285518002}
+  maxV: 25
   deathReasonText: {fileID: 1134074357}
+  gravityScale: 1
 --- !u!1001 &955968102
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3902,7 +3904,9 @@ MonoBehaviour:
   gameOverText: {fileID: 766721017}
   deadLiney: -3
   sendingGForm: {fileID: 1285518002}
+  maxV: 25
   deathReasonText: {fileID: 1134074357}
+  gravityScale: 1
 --- !u!1 &1436782239
 GameObject:
   m_ObjectHideFlags: 0

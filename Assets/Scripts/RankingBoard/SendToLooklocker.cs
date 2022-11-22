@@ -46,6 +46,8 @@ public class SendToLooklocker : MonoBehaviour
                 return 8891;
             case "Level6":
                 return 8893;
+            case "Level7":
+                return 9070;
             default:
                 Debug.Log("out of scene name");
                 return -1;
@@ -70,6 +72,8 @@ public class SendToLooklocker : MonoBehaviour
                 return 8890;
             case "Level6":
                 return 8892;
+            case "Level7":
+                return 9069;
             default:
                 Debug.Log("out of scene name");
                 return -1;
