@@ -1123,7 +1123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4354acfbdfa024ce2bc7b6abc1dec1cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationalSpeed: 0.6
+  rotationalSpeed: 0.1
   left: 0
   right: 0
 --- !u!4 &312627433 stripped
@@ -1541,7 +1541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4354acfbdfa024ce2bc7b6abc1dec1cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationalSpeed: 0.6
+  rotationalSpeed: 0.1
   left: 0
   right: 0
 --- !u!1 &578619469
