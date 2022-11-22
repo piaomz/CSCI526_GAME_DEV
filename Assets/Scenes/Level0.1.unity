@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44300556, g: 0.49219465, b: 0.5719236, a: 1}
+  m_IndirectSpecularColor: {r: 0.44300476, g: 0.49219394, b: 0.5719215, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4644,7 +4644,7 @@ MonoBehaviour:
   sendingGForm: {fileID: 1212589677}
   maxV: 25
   deathReasonText: {fileID: 1469293661}
-  gravityScale: 1
+  gravityScale: 0
 --- !u!54 &1113808151
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5530,7 +5530,7 @@ MonoBehaviour:
   sendingGForm: {fileID: 1212589677}
   maxV: 25
   deathReasonText: {fileID: 1469293661}
-  gravityScale: 1
+  gravityScale: 0
 --- !u!4 &1216398645
 Transform:
   m_ObjectHideFlags: 0

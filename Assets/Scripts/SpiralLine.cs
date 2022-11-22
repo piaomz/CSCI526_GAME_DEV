@@ -18,7 +18,7 @@ public class SpiralLine : MonoBehaviour
     private float time = 0f;
     private float mediumColor = 0.1f;
     private float colorVary;
-    private float colorVarySpeed= 0.05f;
+    private float colorVarySpeed= 0.08f;
     // Start is called before the first frame update
     void Start()
     {
@@ -52,12 +52,21 @@ public class SpiralLine : MonoBehaviour
     }
 
     private bool stageShow = false;
-    private int stageShowSwiftCD = 60;
+    private int stageShowSwiftCD = 30;
     // Update is called once per frame
     void FixedUpdate()
     {
         transform.Rotate(new Vector3(0,0,0.7f));
         time = time +colorVarySpeed;
+        if((int)((time/(2*Mathf.PI))%3)==2){
+            colorVary=-1*mediumColor*Mathf.Cos(time)+mediumColor*1f;
+        }else{
+            colorVary=0f;
+        }
+        //Debug.Log(((time/(2*Mathf.PI))));
+        //Debug.Log("cos");
+        //Debug.Log(Mathf.Cos(time));
+        /*
         if(stageShow){
             // if constantly show only this
             colorVary=mediumColor*Mathf.Cos(time)+mediumColor*1.5f;
@@ -71,7 +80,7 @@ public class SpiralLine : MonoBehaviour
                 stageShow = true;
                 stageShowSwiftCD = 60;
             }
-        }
+        }*/
         stageShowSwiftCD -= 1;
         line.LineColor= new Color(colorVary,colorVary,colorVary,1f);
         line2.LineColor= new Color(colorVary,colorVary,colorVary,1f);
