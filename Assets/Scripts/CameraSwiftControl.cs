@@ -106,10 +106,10 @@ public class CameraSwiftControl : MonoBehaviour
                 is_original_angle = true;
             }
         }
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.LeftShift) | Input.GetKeyDown(KeyCode.RightShift))
         {
-            // Debug.Log("press detected");
-            is_pressing_space = true;
+            Debug.Log("press detected");
+            is_pressing_space = true;// change to shift now
             DateTimeOffset dto = new DateTimeOffset(DateTime.UtcNow);
             space_press_down_timestamp = dto.ToUnixTimeMilliseconds();
             if(together)
@@ -145,7 +145,7 @@ public class CameraSwiftControl : MonoBehaviour
                 }
             }
         }
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetKeyUp(KeyCode.LeftShift) | Input.GetKeyUp(KeyCode.RightShift))
         {
             is_pressing_space = false;
             if(together)
