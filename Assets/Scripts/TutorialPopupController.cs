@@ -16,8 +16,8 @@ public class TutorialPopupController : MonoBehaviour
             TutorialCanvas.SetActive(true);
             showed = true;// show once
             Time.timeScale = 0;
+            Debug.Log("enter");
         }
-        showed = false;
     }
 
     public void closeCanvas(){
