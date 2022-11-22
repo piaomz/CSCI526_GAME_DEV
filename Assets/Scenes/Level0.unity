@@ -967,11 +967,7 @@ Transform:
   - {fileID: 1904738830}
   - {fileID: 341232638}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
-  m_RootOrder: 4
-=======
   m_RootOrder: 6
->>>>>>> 744bc198 (add new popup frame and script)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &202857812
 GameObject:
@@ -1006,11 +1002,7 @@ Transform:
   - {fileID: 2050895410}
   - {fileID: 1720455225}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
-  m_RootOrder: 7
-=======
   m_RootOrder: 9
->>>>>>> 744bc198 (add new popup frame and script)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &274061347
 PrefabInstance:
@@ -1804,11 +1796,7 @@ Transform:
   - {fileID: 118164714}
   - {fileID: 585492913}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
-  m_RootOrder: 6
-=======
   m_RootOrder: 8
->>>>>>> 744bc198 (add new popup frame and script)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &422645750
 GameObject:
@@ -2122,11 +2110,7 @@ Transform:
   - {fileID: 2012279370}
   - {fileID: 24035090}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
-  m_RootOrder: 9
-=======
   m_RootOrder: 11
->>>>>>> 744bc198 (add new popup frame and script)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &477897169 stripped
 MonoBehaviour:
@@ -2173,11 +2157,7 @@ Transform:
   - {fileID: 1209765724}
   - {fileID: 1653231698}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
-  m_RootOrder: 2
-=======
   m_RootOrder: 4
->>>>>>> 744bc198 (add new popup frame and script)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &585492912
 PrefabInstance:
@@ -3877,11 +3857,7 @@ Transform:
   - {fileID: 1655274165}
   - {fileID: 2030933718}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
-  m_RootOrder: 10
-=======
   m_RootOrder: 12
->>>>>>> 744bc198 (add new popup frame and script)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &999666757
 PrefabInstance:
@@ -3992,11 +3968,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2893065726754038047, guid: 8c889ffbf5b5c8241bb971b6b0dd4363, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
-      value: 13
-=======
       value: 15
->>>>>>> 744bc198 (add new popup frame and script)
       objectReference: {fileID: 0}
     - target: {fileID: 2893065726754038047, guid: 8c889ffbf5b5c8241bb971b6b0dd4363, type: 3}
       propertyPath: m_AnchorMax.x
@@ -4421,11 +4393,7 @@ Transform:
   - {fileID: 57420786}
   - {fileID: 135791197}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
-  m_RootOrder: 11
-=======
   m_RootOrder: 13
->>>>>>> 744bc198 (add new popup frame and script)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1059022782
 GameObject:
@@ -4900,11 +4868,7 @@ Transform:
   - {fileID: 632954553}
   - {fileID: 1316574034}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
-  m_RootOrder: 8
-=======
   m_RootOrder: 10
->>>>>>> 744bc198 (add new popup frame and script)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1164258662 stripped
 Transform:
@@ -6407,11 +6371,7 @@ Transform:
   - {fileID: 1488437488}
   - {fileID: 425012400}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
-  m_RootOrder: 5
-=======
   m_RootOrder: 7
->>>>>>> 744bc198 (add new popup frame and script)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1596102444
 PrefabInstance:
@@ -8283,11 +8243,7 @@ PrefabInstance:
       objectReference: {fileID: 1718512503}
     - target: {fileID: 967992088351800894, guid: 69da12980cf61244285ff2ec3192f675, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
-      value: 12
-=======
       value: 14
->>>>>>> 744bc198 (add new popup frame and script)
       objectReference: {fileID: 0}
     - target: {fileID: 967992088351800894, guid: 69da12980cf61244285ff2ec3192f675, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8608,11 +8564,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2941739522543255779, guid: bc7789da42e1943a088a8af23c7b92fc, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
-      value: 3
-=======
       value: 5
->>>>>>> 744bc198 (add new popup frame and script)
       objectReference: {fileID: 0}
     - target: {fileID: 2941739522543255779, guid: bc7789da42e1943a088a8af23c7b92fc, type: 3}
       propertyPath: m_AnchorMax.x
@@ -8721,11 +8673,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2979588500922710347, guid: cc29ed595385b4d88a36688ec3311aac, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
-      value: 14
-=======
       value: 16
->>>>>>> 744bc198 (add new popup frame and script)
       objectReference: {fileID: 0}
     - target: {fileID: 2979588500922710347, guid: cc29ed595385b4d88a36688ec3311aac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8830,8 +8778,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25deb39069d5aa8438ac8e4b44381d06, type: 3}
-<<<<<<< HEAD
-=======
 --- !u!1001 &5778136754870076577
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8985,4 +8931,4 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 780d3adc674b2b84294ef3433e4ddf03, type: 3}
->>>>>>> 744bc198 (add new popup frame and script)
+
