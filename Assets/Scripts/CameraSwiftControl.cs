@@ -108,7 +108,7 @@ public class CameraSwiftControl : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.LeftShift) | Input.GetKeyDown(KeyCode.RightShift))
         {
-            Debug.Log("press detected");
+            // Debug.Log("press detected");
             is_pressing_space = true;// change to shift now
             DateTimeOffset dto = new DateTimeOffset(DateTime.UtcNow);
             space_press_down_timestamp = dto.ToUnixTimeMilliseconds();
