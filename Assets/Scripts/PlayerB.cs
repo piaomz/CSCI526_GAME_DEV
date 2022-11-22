@@ -15,7 +15,7 @@ public class PlayerB : MonoBehaviour
     public float maxV=25;
     private bool inertia;
     public Text deathReasonText;
-    public int gravityScale = 1;
+    public int gravityScale = 0;
     //private GameObject winText;
     //private Rigidbody door;
     // Start is called before the first frame update
