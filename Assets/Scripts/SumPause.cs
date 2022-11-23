@@ -67,7 +67,7 @@ public class SumPause : MonoBehaviour {
             gameObject.SetActive(false);
         }
         // Listen for escape key and pause if needed
-        if (detectEscapeKey && (Input.GetKeyDown(KeyCode.Escape) | Input.GetKeyDown(KeyCode.Space))){
+        if (detectEscapeKey && (Input.GetKeyDown(KeyCode.Escape) | Input.GetKeyDown(KeyCode.K))){
             TogglePause();
         }
     }
