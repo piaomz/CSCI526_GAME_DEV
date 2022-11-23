@@ -20,6 +20,12 @@ public class TutorialPopupController : MonoBehaviour
         }
     }
 
+    private void Update() {
+        if(TutorialCanvas.activeSelf && Input.GetKeyDown(KeyCode.Space)){
+            closeCanvas();
+        }
+    }
+
     public void closeCanvas(){
         TutorialCanvas.SetActive(false);
         Time.timeScale = 1;
