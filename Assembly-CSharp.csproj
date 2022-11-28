@@ -62,6 +62,7 @@
     <Compile Include="Assets/unityCartoon Town - Low Poly/Assets/CartoonTown-LowPolyAssets/Standard Assets/Effects/Common/RenderTextureUtility.cs" />
     <Compile Include="Assets/unityCartoon Town - Low Poly/Assets/CartoonTown-LowPolyAssets/Standard Assets/Effects/Bloom/Bloom.cs" />
     <Compile Include="Assets/VolumetricLines/Scripts/VolumetricLineVertexData.cs" />
+    <Compile Include="Assets/Scripts/LevelLockSwitch.cs" />
     <Compile Include="Assets/Scripts/OpenDoorA.cs" />
     <Compile Include="Assets/unityCartoon Town - Low Poly/Assets/CartoonTown-LowPolyAssets/Standard Assets/Effects/AmbientOcclusion/AmbientOcclusion.cs" />
     <Compile Include="Assets/AurynSky/Forest Pack/Scripts/MaterialMover.cs" />

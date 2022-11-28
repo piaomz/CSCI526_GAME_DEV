@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44300523, g: 0.49219424, b: 0.5719226, a: 1}
+  m_IndirectSpecularColor: {r: 0.44300476, g: 0.49219394, b: 0.5719215, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -865,7 +865,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Unlock All Levels
+  m_text: Unlock/Lock All Levels
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -892,8 +892,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1539,6 +1539,7 @@ GameObject:
   - component: {fileID: 701546391}
   - component: {fileID: 701546390}
   - component: {fileID: 701546388}
+  - component: {fileID: 701546393}
   m_Layer: 5
   m_Name: LevelLockSwitch
   m_TagString: Untagged
@@ -1631,9 +1632,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LevelSelector1, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 701546393}
+        m_TargetAssemblyTypeName: LevelLockSwitch, Assembly-CSharp
+        m_MethodName: LevelUnlock
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1681,6 +1682,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 701546386}
   m_CullTransparentMesh: 1
+--- !u!114 &701546393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701546386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d2e9ac1fcd547de95cd93f94e5d290, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lvlButtons:
+  - {fileID: 213755066}
+  - {fileID: 1974447108}
+  - {fileID: 1273935693}
+  - {fileID: 874043318}
+  - {fileID: 1610004322}
+  - {fileID: 1450640365}
+  - {fileID: 1667509364}
+  - {fileID: 2144699761}
+  - {fileID: 139346958}
 --- !u!1 &742976016
 GameObject:
   m_ObjectHideFlags: 0
@@ -1800,9 +1823,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 742976018}
+      - m_Target: {fileID: 742976016}
         m_TargetAssemblyTypeName: WorldSwitch, Assembly-CSharp
-        m_MethodName: WorldSwift
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
