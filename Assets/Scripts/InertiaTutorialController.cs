@@ -4,17 +4,27 @@ using UnityEngine;
 
 public class InertiaTutorialController : MonoBehaviour
 {
-    public GameObject InertiaTutorial;
-    // Start is called before the first frame update
-    void Start()
-    {
-        if (GlobalVariables.inertia)
-        {
-            InertiaTutorial.SetActive(true);
+    public bool showed;
+    public GameObject TutorialCanvas;
+    void Start(){
+        showed = false;
+    }
+
+    public void clicked() {
+        if(GlobalVariables.inertia && !showed){
+            TutorialCanvas.SetActive(true);
+            showed = true;// show once
         }
-        else{
-            InertiaTutorial.SetActive(false);
+    }
+
+    private void Update() {
+        if(TutorialCanvas.activeSelf && Input.GetKeyDown(KeyCode.Space)){
+            closeCanvas();
         }
+    }
+
+    public void closeCanvas(){
+        TutorialCanvas.SetActive(false);
     }
 
 }
