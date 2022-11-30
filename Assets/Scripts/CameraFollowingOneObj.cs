@@ -22,9 +22,12 @@ public class CameraFollowingOneObj : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        pos = transform.position;// fix Y
-        pos.z = playerTransform.position.z + offset.z;
-        pos.x = playerTransform.position.x + offset.x;
-        transform.position = pos;
+        if(Time.timeScale > 0){
+
+            pos = transform.position;// fix Y
+            pos.z = playerTransform.position.z + offset.z;
+            pos.x = playerTransform.position.x + offset.x;
+            transform.position = pos;
+        }
     }
 }

@@ -16,6 +16,13 @@ public class TutorialPopupController : MonoBehaviour
             TutorialCanvas.SetActive(true);
             showed = true;// show once
             Time.timeScale = 0;
+            Debug.Log("enter");
+        }
+    }
+
+    private void Update() {
+        if(TutorialCanvas.activeSelf && Input.GetKeyDown(KeyCode.Space)){
+            closeCanvas();
         }
     }
 

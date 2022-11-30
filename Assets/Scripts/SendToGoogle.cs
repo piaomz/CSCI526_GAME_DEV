@@ -204,10 +204,20 @@ void initializeHashmaps(string cur_level){
         coin_achieve_name_to_idx.Add("CoinB (2)", 3);
         break;
     case "Level6":
-        // coin_achieve_name_to_idx.Add("Coin (1)", 0);
-        // coin_achieve_name_to_idx.Add("CoinB (1)", 1);
-        // coin_achieve_name_to_idx.Add("Coin (2)", 2);
-        // coin_achieve_name_to_idx.Add("CoinB (2)", 3);
+        coin_achieve_name_to_idx.Add("Coin (1)", 0);
+        coin_achieve_name_to_idx.Add("CoinB (1)", 1);
+        coin_achieve_name_to_idx.Add("Coin (2)", 2);
+        coin_achieve_name_to_idx.Add("CoinB (2)", 3);
+        coin_achieve_name_to_idx.Add("Coin (3)", 4);
+        coin_achieve_name_to_idx.Add("CoinB (3)", 5);
+        break;
+    case "Level7":
+        coin_achieve_name_to_idx.Add("Coin (1)", 0);
+        coin_achieve_name_to_idx.Add("CoinB (1)", 1);
+        coin_achieve_name_to_idx.Add("Coin (2)", 2);
+        coin_achieve_name_to_idx.Add("CoinB (2)", 3);
+        coin_achieve_name_to_idx.Add("Coin (3)", 4);
+        coin_achieve_name_to_idx.Add("CoinB (3)", 5);
         break;
     default:
         // code block

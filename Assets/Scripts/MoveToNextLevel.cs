@@ -17,7 +17,7 @@ public class MoveToNextLevel : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-            if(SceneManager.GetActiveScene().buildIndex == 7)
+            if(SceneManager.GetActiveScene().buildIndex == 9)
 
             {
                 Debug.Log("You Completed ALL Levels");

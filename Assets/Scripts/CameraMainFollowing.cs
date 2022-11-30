@@ -25,14 +25,17 @@ public class CameraMainFollowing : MonoBehaviour
     void Update()
     {
         //transform.position = (playerTransform.position + playerTransform2.position) / 2 + offset;
-        pos = transform.position;
-        if (playerTransform.position.z < playerTransform2.position.z)
-        {
-            pos.z = playerTransform.position.z + offset.z;
+        if(Time.timeScale > 0){
+            pos = transform.position;
+            if (playerTransform.position.z < playerTransform2.position.z)
+            {
+                pos.z = playerTransform.position.z + offset.z;
+            }
+            else {
+                pos.z = playerTransform2.position.z + offset.z;
+            }
+            transform.position = pos;
         }
-        else {
-            pos.z = playerTransform2.position.z + offset.z;
-        }
-        transform.position = pos;
+
     }
 }
