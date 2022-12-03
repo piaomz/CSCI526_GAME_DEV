@@ -8,12 +8,19 @@ PLAY ME!!!
 
 https://frankyjy.github.io/WebGL-host/
 
+## PV Video
+
+https://www.youtube.com/watch?v=76b0G2nXKZQ
+
 ## Game Design Document
 
 https://docs.google.com/document/d/19gOU289K4kFHLjma3p6f-AH5rlEtCQVtVA5q15uUYMA/edit?usp=sharing
 
-## Unity Editor Version
+## Analysis 
 
+https://drive.google.com/file/d/1KKFyiZllnQsujCqRhHwpE2QpsdTkggqF/view
+
+## Unity Editor Version
 
 2021.3.9f1 
 
